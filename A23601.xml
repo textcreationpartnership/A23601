@@ -1,0 +1,774 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The swearer's doom; or, A discourse setting forth the great sinfulness and danger of rash and vain swearing. By John Rost M.A. rector of Offwell and Gittisham in Devon</title>
+            <author>Rost, John, d. 1713.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1695</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 110 KB of XML-encoded text transcribed from 37 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A23601</idno>
+            <idno type="STC">Wing R1987A</idno>
+            <idno type="STC">ESTC R203434</idno>
+            <idno type="EEBO-CITATION">99825249</idno>
+            <idno type="PROQUEST">99825249</idno>
+            <idno type="VID">29627</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A23601)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 29627)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2152:3)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The swearer's doom; or, A discourse setting forth the great sinfulness and danger of rash and vain swearing. By John Rost M.A. rector of Offwell and Gittisham in Devon</title>
+                  <author>Rost, John, d. 1713.</author>
+               </titleStmt>
+               <extent>[4], 76 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Thomas Parkhurst at the Bible and Three Crowns, the lower end of Cheapside, near Mercers-Chapel,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1695.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Misattributed in Wing to John Ross.</note>
+                  <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Swearing --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-03</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-08</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2011-08</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:29627:1"/>
+            <pb facs="tcp:29627:1" rendition="simple:additions"/>
+            <p>THE Swearer's Doom; OR, A Diſcourſe Setting forth The great Sinfulneſs and Danger OF Raſh and Vain Swearing.</p>
+            <p>By <hi>JOHN ROST</hi> M.A. Rector of <hi>Offwell</hi> and <hi>Gittiſham</hi> in <hi>Devon.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Thomas Parkhurſt</hi> at the <hi>Bible</hi> and <hi>Three Crowns,</hi> the lower End of <hi>Cheapſide,</hi> near <hi>Mercers-Chapel.</hi> 1695.</p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:29627:2"/>
+            <pb facs="tcp:29627:2"/>
+            <head>The PREFACE.</head>
+            <p>RASH and Vain Swearing is ſo Great and Hei<g ref="char:EOLhyphen"/>nous a Sin, and God has ſo plainly, and ſolemn<g ref="char:EOLhyphen"/>ly, and in ſo dreadful a manner reveal'd his Wrath from Heaven againſt it, that one would <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hink, that none but ſuch as are confirm'd and hardned a Atheiſm, ſhould dare to be guilty of it. And yet it is <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> very common and uſual, as if it were neither ſinful nor <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>angerous, but an innocent and harmleſs thing.</p>
+            <p>If they were only the poor and ignorant, who are ad<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>icted to this Sin, we might ſay with the Prophet <hi>Je<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>emy,</hi> ch. <hi>5.</hi> v. <hi>4. Surely theſe are Poor, theſe are <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ooliſh, for they know not the Way of the Lord, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>or the Judgment of their God. I will get me to <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e Great Men, and will ſpeak unto them, for <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ey have known the way of the Lord, and the <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>dgment of their God.</hi>
+            </p>
+            <p>But we ſhall find our ſelves no leſs miſtaken than he <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>as, if we think Oaths are in uſe only among the mean<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> ſort, for even the Court it ſelf, yea the Church it ſelf, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd the <g ref="char:V">Ʋ</g>niverſities, which ſhould be Seminaries of <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>iety, as well as Learning, are not free from them; the <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>obility and Gentry are as much accuſtom'd to them, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the meaneſt of the Commonalty and Mechanicks.</p>
+            <p>But ſhould we go into the Fleet, or Army, we ſhould <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ar ſuch Vollies of Oaths and Curſes, as would even <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ake the Hair of a Sober and Modeſt Chriſtian, who <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>areth an Oath, to ſtand upright, and we muſt conti<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ally ſtop our Ears, as <hi>Ulyſſes</hi> did thoſe of his Men, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> we would not hear them.</p>
+            <p>And is it not a moſt ſtrange and unaccountable thing, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t Souldiers, who carry their Lives almoſt continually <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> their hands, and between whom and death there is <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t a ſtep, as <hi>David</hi> ſaid to <hi>Jonathan,</hi> ſhould have <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eir Mouths full of Oaths and Curſes? And that Ma<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ers who, as <hi>Seneca</hi> ſaith, do
+<pb facs="tcp:29627:3"/>
+               <q>
+                  <l>—Tenui fidere ligno,</l>
+                  <l>Inter vitae mortiſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> vias</l>
+                  <l>Nimium gracili limite ducto.</l>
+                  <bibl> Sen. Medea.</bibl>
+               </q>
+            </p>
+            <p>That ſuch (I ſay) who are conſtantly expos'd to <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> many dangers both from the Seas and Enemies, and wh<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> conſequently, one would think, ſhould be always at the<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Prayers, ſhould Curſe and Sear as if they would bi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> open defiance to Heaven, and even dare the Almight to conſume and deſtroy them.</p>
+            <p>How it will pleaſe God to deal with us we know no<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> certainly there can be but ſmall grounds to hope, that Go<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> will give us Victory or Deliverance by the hands of ſuc<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> men; the deſtroying of whom from off the Earth, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> almoſt the only good that War doth.</p>
+            <p>And as if all this were not bad enough, but that <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> were afraid we ſhall want Swearers when theſe are gon<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> little Children are taught it as ſoon as they can ſpea<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> and in many places they are far more ready at it th<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> at their Prayers, and Catechiſms, and ſeveral Houſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> even of the Nobility and Gentry, ſeem to be but ſo ma<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Nurſeries and Seminaries of Swearers.</p>
+            <p>The ſerious conſideration of theſe things firſt put <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> upon compoſing the enſuing Diſcourſe, without the lea<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> thoughts or deſign of making it more publick than <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> muſt be by Preaching it.</p>
+            <p>But having ſome reaſon to hope that it has had ſo<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> good effect upon ſome that heard it, I confeſs I was t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> more eaſily brought to conſent to the Printing of it, f<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> which tho' I muſt expect to be cenſured or derided <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſome, yet if it ſhall pleaſe God to make it inſtrument for the reclaiming of any Cuſtomary Swearers (tho' but few of them) or preventing others from becoming ſuc<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> I will ſay with the Pſalmiſt, <hi>Pſal. 115.1.</hi> Not un us O Lord, not unto us, but unto thy Name gi<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> the Glory; <hi>which Name will never be Prophaned</hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> raſh Oaths and Curſes, but Hallowed and Reverenc<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> by all ſuch as ſincerely love, and fear him.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:29627:3"/>
+            <head>The Swearer's Doom.</head>
+            <epigraph>
+               <bibl>
+                  <hi>St. James 5.12.</hi>
+               </bibl>
+               <q> But above all things, my Brethren, ſwear not, nei<g ref="char:EOLhyphen"/>ther by Heaven, neither by the Earth, neither by any other Oath: But let your yea be yea; and your nay, nay; leſt ye fall into condemnation.</q>
+            </epigraph>
+            <p>THere are two things which chiefly, and eſpecially cauſe the Laws of Princes to be moſt diligently heeded, and obſerved by their Subjects; the ſolemn manner of publiſhing of them, and the Sanction, or Pe<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>alty threatned to ſuch as ſhall tranſgreſs them.</p>
+            <p>If they ſolemnly, and peremptorily require, or forbid any thing; all men will conclude, that <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hey will be very much offended with ſuch, as <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o not regard ſuch their Commands and Prohi<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>itions, tho' there be no particular Puniſhment <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hreatned; and who would willingly incur the ſiſpleaſure of ſuch as have power over him, if <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e could by any means avoid it?</p>
+            <p>But when there is alſo a ſevere Penalty an<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ext to the breach of a Law, every man that <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eſires his own ſafety and welfare, will be care<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ul to obſerve that Law, if for no other reaſon, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>et upon this account only, becauſe he would <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ot be obnoxious to the ſaid Penalty.</p>
+            <pb n="2" facs="tcp:29627:4"/>
+            <p>When God Almighty therefore did promul<g ref="char:EOLhyphen"/>gate that Law from Heaven, which he wrote with his own hand, in Two Tables of Stone, but which he long before had Engraven on the hearts of all Mankind; that his People <hi>Iſrael</hi> might moſt heedfully attend to it, and moſt re<g ref="char:EOLhyphen"/>ligiouſly keep it; He cauſed it to be publiſhed with the greateſt Solemnity, and confirmed its Authority by the greateſt Sanctions.</p>
+            <p>As to the Solemnity of its Publication, we have a full account of it in ſeveral places. <hi>Moſe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> tells us (<hi>Exod.</hi> 19.16.) that on the Third day <hi>(viz.)</hi> after the people had notice given to pre<g ref="char:EOLhyphen"/>pare themſelves, there were Thundrings, and Lightnings, and a thick Cloud upon <hi>Moun<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Sinai,</hi> and the voice of the Trumpet exceeding loud, and that all the people that was in the Camp trembled, and (<hi>v.</hi> 18) it's ſaid that th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Mount was altogether as a Smoke, becauſe the Lord deſcended upon it, and the Smoke thereo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> aſcended, as the Smoke of a great Furnace, and the whole Mount quaked greatly; after which God did moſt ſolemnly proclaim that Law.</p>
+            <p>And we find the Levites upon a ſolemn Faſt (<hi>Neh.</hi> 9.13.) acknowledging this as a great ag<g ref="char:EOLhyphen"/>gravation of the ſins of the Jews, that they ha<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſo wickedly broken a Law that was ſo holy an<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> juſt, and proclaimed by God himſelf in ſo re<g ref="char:EOLhyphen"/>markable a manner; <hi>Thou cameſt down alſo upo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Mount</hi> Sinai, <hi>and ſpakeſt with them from Heaven and gaveſt them right Judgments, and true Law. good Statutes and Commandments.</hi>
+            </p>
+            <pb n="3" facs="tcp:29627:4"/>
+            <p>And tho' St. <hi>Paul</hi> calls the giving of that Law written and engraven in Stone, the mini<g ref="char:EOLhyphen"/>ſtration of death, (2 <hi>Cor.</hi> 3.7.) and the miniſtra<g ref="char:EOLhyphen"/>tion of condemnation, (<hi>v.</hi> 9) yet he tells us that it was glorious <hi>(i.e.)</hi> it was publiſhed with great ſolemnity, that the Iſraelites might re<g ref="char:EOLhyphen"/>ceive it with the greater veneration. But the Author to the <hi>Hebrews</hi> (<hi>cap.</hi> 12.18.) gives us the fulleſt account of it; <hi>For ye are not come un<g ref="char:EOLhyphen"/>to the Mount that might be touched, and that burn<g ref="char:EOLhyphen"/>ed with fire, nor unto blackneſs, and darkneſs, and tempeſt, and the ſound of a Trumpet, and the voice of words, which voice they that heard entreated that the word ſhould not be ſpoken to them any more;</hi> and (<hi>v.</hi> 21.) <hi>ſo terrible was the ſight,</hi> that <hi>Moſes</hi> ſaid, <hi>I exceedingly fear and quake.</hi>
+            </p>
+            <p>Which requeſt of the Iſraelites doth plainly imply, that they well underſtood that the rea<g ref="char:EOLhyphen"/>ſon why God did proclaim his Laws after ſo dreadful and terrible a manner, was, that they might receive them with the greater reverence, and obſerve them with the greater diligence, which therefore they promiſed to do, upon the meer intimation of his will to <hi>Moſes.</hi>
+            </p>
+            <p>And as God cauſed his Law to be promul<g ref="char:EOLhyphen"/>gated after ſo ſolemn a manner, that it might make the greater impreſſion upon them; ſo did he alſo confirm and ratifie it with the greateſt Sanctions for the ſame reaſon; (<hi>i. e.</hi> as he did promiſe the greateſt bleſſings to encourage them to obedience, ſo he denounced the ſevereſt Curſes, Judgments and Penalties againſt ſuch <gap reason="missing" extent="4 pages">
+                  <desc>〈4 pages missing〉</desc>
+               </gap>
+               <pb n="8" facs="tcp:29627:5"/>ceeds from vanity or lightneſs of mind, and want of the fear of God, and a true ſenſe of Religion; from fraud and hypocriſie in the Swearers, or the incredulity and diſtruſtfulneſs of ſome, who will believe no one without an Oath; and the words are true in either ſenſe.</p>
+            <p>Which Poſitive Precept ſerves only for the illuſtration, and confirmation of the Negative one, <hi>Above all things ſwear not, &amp;c.</hi> That men might have no evaſion, pretence, or excuſe for the breach of it.</p>
+            <p>And here I muſt premiſe that the Apoſtle doth not forbid ſuch Oaths as are Impoſed by Ma<g ref="char:EOLhyphen"/>giſtrates, or uſed in matters of Weight and im<g ref="char:EOLhyphen"/>portance, for the maintenance of truth &amp; Juſtice, and deciding of Controverſies among Men; Which are either Aſſertory, when a man doth Aſſert or deny that ſuch or ſuch a thing was or is; or Promiſſory, which is a promiſe made with Solemn Invocation of the Name of God; which if made to God, are called Vows, if to Men, Oaths.</p>
+            <p>Now theſe have not only been uſed in all Ages and Nations, but accounted neceſſary for the ſupport of human Society, and the greateſt ſecurity that one man can give of his Truth and Fidelity to another, as it's ſaid (<hi>Heb.</hi> 6.16.) An Oath (<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>) for Confirmation is among men an end of all ſtrife.</p>
+            <p>And we have ſeveral Inſtances of it, <hi>Abraham</hi> made his Servant Swear concerning the chooſe<g ref="char:EOLhyphen"/>ing of a Wife for his Son: (<hi>Gen.</hi> 24.3. <hi>Jacob</hi>
+               <pb n="9" facs="tcp:29627:5"/>took an Oath of <hi>Joſeph</hi> concerning his Burial, (<hi>Gen.</hi> 47.31.) As he did of the Iſraelites, (<hi>Chap.</hi> 50.25.) And what a Solemn Oath, did there paſs betwixt <hi>David</hi> and <hi>Jonathan,</hi> 1 <hi>Sam.</hi> 20.17.</p>
+            <p>But if there is any one to be believed with<g ref="char:EOLhyphen"/>out an Oath, certainly God is, who, as he is Omniſcient, and cannot be deceived; ſo is he ſo immutably Holy, as that he cannotlye; and yet that we might the more firmly believe, and embrace his Promiſes, he has been pleaſed to confirm them with an Oath, (<hi>Heb.</hi> 6.17.) God <hi>willing more abundantly to ſhew unto the heirs of promiſe the Immutability of his Counſel, Confirm'd it by an Oath.</hi>
+            </p>
+            <p>The Apoſtle ſays [<hi>v.</hi> 13.] That when God made the promiſe to <hi>Abraham, becauſe he could Swear by no greater, he Sware by himſelf.</hi> Why! what need was there of God's Swearing at all: What would not <hi>Abraham</hi> the Father of the Faith<g ref="char:EOLhyphen"/>ful, that great Pattern, and moſt eminent Ex<g ref="char:EOLhyphen"/>emplar of Faith, he of whom it is ſaid long be<g ref="char:EOLhyphen"/>fore the making of that Promiſe, that <hi>he be<g ref="char:EOLhyphen"/>lieved God and it was counted to him for Righte<g ref="char:EOLhyphen"/>ouſneſs,</hi> (Gen. 15.6.) <hi>and that he Stagger'd not at the Promiſes through Unblief,</hi> (Rom. 8.20.) <hi>but was ſtrong in Faith, giving Glory to God.</hi>
+            </p>
+            <p>Would not he (I ſay) have taken God's bare word or did God doubt whether he would have believed him without his Oath? No certainly, 'twas far otherwiſe; And yet for the greater Solemnity he Confirmed his promiſe with an Oath; Which doubtleſs he would not have done
+<pb n="10" facs="tcp:29627:6"/>had an Oath been morally Evil and unlaw<g ref="char:EOLhyphen"/>ful</p>
+            <p>For tho God doth often condeſcend to repre<g ref="char:EOLhyphen"/>ſent himſelf after the manner of Men, yet he never doth Imitate or comply with them in any matter or cuſtom that is in it ſelf wicked, and Sinful.</p>
+            <p>Indeed there is a Sect ſprung up among us, that utterly refuſe, and condemn all Oaths as unlawful at leaſt under the Goſpel Reformati<g ref="char:EOLhyphen"/>on, tho the uſe of them might be Tolerated un<g ref="char:EOLhyphen"/>der the Law upon the ſame account that di<g ref="char:EOLhyphen"/>vorce was, viz. becauſe of the hardneſs of mens hearts: And in Compliance with their Infir<g ref="char:EOLhyphen"/>mity.</p>
+            <p>And their Opinion is profeſſedly grounded on that precept of Chriſt, (<hi>Mat.</hi> 5.33.) which ſeems indeed very much to Countenance it, being laid down in the moſt large and comprehenſive Terms; <hi>But I ſay unto you, Swear not at all, nei<g ref="char:EOLhyphen"/>ther by Heaven &amp;c.</hi> Which is the ſame Law here, enforced by St. <hi>James</hi> much after the ſame manner.</p>
+            <p>But this, as it is a very new and upſtart opi<g ref="char:EOLhyphen"/>nion, ſo I think it was never entertain'd by any one man of any conſiderable Learning or under<g ref="char:EOLhyphen"/>ſtanding, tho I muſt confeſs there is ſcarce any error that hath greater colour or pretence to countenance it in Scripture, ſo that its no won<g ref="char:EOLhyphen"/>der ſo many have imbraced it.</p>
+            <p>I ſhall not Labour at preſent in confutation of it, my deſign being not to diſcourſe of what
+<pb n="11" facs="tcp:29627:6"/>is not, but of what is forbidden in the Text; but only briefly.</p>
+            <p>And firſt, It is certain that if ſuch Solemn Oaths are ſinful, they were always ſo; For Chriſt, as he did not come to deſtroy the Law, or any part thereof, ſo did he not properly make any Addition to it, only he ſhewed the true ſenſe, and meaning, and the true extent and Obliga<g ref="char:EOLhyphen"/>tion of it, he gave a fuller and better interpre<g ref="char:EOLhyphen"/>tation of it then had been formerly made, and confuted thoſe falſe Gloſſes and comments that the Scribes and Phariſees put upon it.</p>
+            <p>Before Chriſt's coming it was the duty of all men to avoid not only Murther, but Hatred, Ma<g ref="char:EOLhyphen"/>lice, Revenge, Envy, yea and raſh and cauſleſs Anger; not only the act of Adultery, but all unchaſt Thoughts and luſtful Deſires. 'Twas not he alone that made it unlawful for men to put away their Wives for every cauſe; it was a ſin from the beginning.</p>
+            <p>In brief, 'twas no more lawful before his time, than it was afterward for men to reſiſt evil, or to render evil for evil; it was always their duty to love their Enemies, to do good to them that hated them, <hi>&amp;c.</hi> Tho' indeed the ge<g ref="char:EOLhyphen"/>nerality of the Jews did not ſo well underſtand what was commanded or forbidden by the Law, until Chriſt did then expound it to them; tho' the Scribes and Phariſees would not receive his Expoſition.</p>
+            <p>And therefore it follows, that if it be now a ſin to ſwear, or take any Oath at all under the
+<pb n="12" facs="tcp:29627:7"/>Goſpel, it was ſo under the Law; and yet w<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> find it frequently uſed by good men, and tha<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> not raſhly, but deliberately, and with th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> greateſt ſolemnity.</p>
+            <p>Yea we find that God did in ſome caſes ex<g ref="char:EOLhyphen"/>preſly require it, as (<hi>Exod.</hi> 22.10.) <hi>If a man d<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> liver unto his neighbour an Aſs, or an Ox, or a Sheep or any beaſt to keep, and it die, or be hurt, or dr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>ven away, no man ſeeing it; then ſhall an Oath o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> the Lord be between them both, That he hath no<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> put his hand to his neighbours goods, and the Owne<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> of it ſhall accept thereof, he ſhall not make it good.</hi> And in like manner in the caſe of Jealouſie the Woman was to clear her ſelf by Oath be<g ref="char:EOLhyphen"/>fore the Prieſts, (<hi>Numb.</hi> 5.19.)</p>
+            <p>Now, tho' it be certain that every Man, an<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> eſpecially every Chriſtian, ought to ſpeak th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> truth, with that uprightneſs and ſincerity, a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> that his Word may be as good as his Oath, an<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> then there would be no need of any ſuch thing and tho' it be very probable, that the Cuſtom and Uſe of ſolemn Swearing was occaſioned by the want of honeſty and fidelity amongſt men there being many whoſe Conſciences ſtartle a Perjury, who are not afraid to make a Lye.</p>
+            <p>Yet we cannot imagine that God would ap<g ref="char:EOLhyphen"/>point one ſin for the remedy or prevention o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> another; or that he would permit, much leſs require that a man ſhould commit a certain ſin to prevent one that was uncertain and acci<g ref="char:EOLhyphen"/>dental.</p>
+            <p>Again, that our Saviour's Prohibition of
+<pb n="13" facs="tcp:29627:7"/>Swearing is to be underſtood of Oaths in common and ordinary diſcourſe, of raſh and heedleſs, preſumptuous, inconſiderate and irre<g ref="char:EOLhyphen"/>verent Oaths, and not of ſolemn and religious Swearing before the Magiſtrate in matters of importance, ſeems very evident from the cohe<g ref="char:EOLhyphen"/>rence, and the oppoſition that there is between theſe two Precepts, [<hi>Swear not at all,</hi> &amp;c.] and <hi>(let your communication be yea, yea, and nay, nay) (i. e.)</hi> in ordinary diſcourſe do not uſe Swear<g ref="char:EOLhyphen"/>ing; for 'tis obſervable, that when afterward in explaining the firſt Precept, he adds, <hi>neither by Heaven, for it is God's Throne,</hi> &amp;c. He doth not at all mention the ſwearing by the Name of God.</p>
+            <p>The reaſon of which is ſuppoſed to be this; The Jews in general, and eſpecially the Scribes and Phariſees were moſt religious and exact ob<g ref="char:EOLhyphen"/>ſervers of the Third Commandment, &amp; would never mention the Name of God but with great reverence and devotion, and upon ſome ſolemn occaſion, as in prayer and reading his Word, or when they were lawfully called to it.</p>
+            <p>Yea, whereas they did not read the word <hi>Jehovah</hi> as it was written, but pronounced it <hi>Idonai:</hi> Some ſuppoſe that the reaſon was, be<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>auſe they thought that name <hi>Jehovah</hi> too ſa<g ref="char:EOLhyphen"/>red to be pronounced by the mouth of Man. <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd therefore the Jews of latter times after <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e Captivity called the <hi>Tetragrammaton (i e.)</hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat Hebrew name <hi>Jehovah,</hi> which they account<g ref="char:EOLhyphen"/>ed the proper and incommunicable name of <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>od, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the unutterable Name, and
+<pb n="14" facs="tcp:29627:8"/>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the dreadful name; and the letters which compos'd it, the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the ſacred letters.</p>
+            <p>Yea <hi>Buxtorf</hi> ſays, that they held it unlawful for any beſides the Prieſts to pronounce that name, and that it was not lawful for them to do it, but when they ſolemnly bleſſed the People in that name. And that this name engraven by God himſelf, was kept in the moſt holy place to be ſeen only by the High Prieſt, and that but or the day of the ſolemn Expiation.</p>
+            <p>Which name they called <hi>Schem Hamphoraſc<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> (i.e.)</hi> the explained name, or (as others) the pe<g ref="char:EOLhyphen"/>culiar and ſeparate name which they ſay Chriſ<g ref="char:EOLhyphen"/>ſtole out of the Temple, and by which he wrought his mighty works.</p>
+            <p>All which, and much more to the ſame pur<g ref="char:EOLhyphen"/>poſe mentioned by <hi>Buxtorf</hi> on the name <hi>Jeh<g ref="char:EOLhyphen"/>vah,</hi> ſhow what wonderful reverence they ha<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> for the Name of God.</p>
+            <p>But then they thought they might lawfull ſwear by the Creatures, as by Heaven, an Earth, by <hi>Jeruſalem,</hi> by the Temple, and the Gold of the Temple, the Altar, and the Gi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> upon the Altar; and this they did commonl<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> and cuſtomarily in their ordinary converſation and thought there was no hurt in it, provide they did not ſwear falſly.</p>
+            <p>Which errour and miſtake of theirs our S<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>viour confutes, ſhowing the reaſon why <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> would not have them ſwear at all, <hi>neither Heaven</hi> (ſays he) <hi>for it is God's Throne, nor by t<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> Earth, for it is his Footſtool.</hi>
+            </p>
+            <pb n="15" facs="tcp:29627:8"/>
+            <p>As if he had ſaid, you think you may lawfully ſwear in your ordinary diſcourſe, in your common converſation, provided you do not ſwear by the name of God; But I tell you, you ſhall not Swear at all by any of theſe, for God is virtual<g ref="char:EOLhyphen"/>ly invoked in every ſuch Oath, becauſe he hath a property and Right in all the things you ſwear by; Do you ſwear by Heaven? it is God's Throne; and he that ſweareth by it, ſweareth by him that ſitteth thereon; do you ſwear by the Tem<g ref="char:EOLhyphen"/>ple, it is God's Houſe, and you virtually Swear by him that dwelleth therein: Do you Swear by the Altar? you ſwear by the Gift that is upon it, &amp; by that God to whom it is offered, (<hi>Mat.</hi> 23.20.)</p>
+            <p>Do not think therefore that you do not break the third Commandment, becauſe you do not expreſley mention the name of God; for you do virtually Swear by his name, when you Swear by the Creatures, and eſpecially when you ſwear by any thing that is dedicate and ſacred to him.</p>
+            <p>Now it cannot be imagined why, when our Saviour ſaid Swear not at all, and afterward by way of Explication added neither by Heaven, nor Earth, <hi>&amp;c.</hi> he had not more eſpecially made mention of Swearing by the name of God, if he ſhould have his Hearers take his words in the univerſal and unlimitted ſenſe: In brief were it utterly unlawful to Swear at all, God would not have given directions how Oaths ſhould be made and qualified as he doth, (<hi>Jer.</hi> 4.2.) In which place 'tis obſervable that the Pro<g ref="char:EOLhyphen"/>phet doth not uſe the word <hi>Elohim</hi> or <hi>Adonai,</hi>
+               <pb n="16" facs="tcp:29627:9"/>but <hi>Jehovah</hi> its ſelf, which the Jews (as I ſaid) counted the moſt ſacred and proper Name of God, and which they ſcarce dared to pronounce upon any account whatſoever; &amp; propably they pronounced it <hi>Adonai</hi> here, as in other places.</p>
+            <p>I could add ſeveral conſiderations more to prove that the Apoſtle's words are not to be un<g ref="char:EOLhyphen"/>derſtood of Solemn and religious Oaths, but I ſhall wave them, my buſineſs and deſign being to ſpeak of the ſinfullneſs, and danger of raſh, vain, inconſiderate Swearing.</p>
+            <p>As to the firſt, The ſinfullneſs of it ſufficient<g ref="char:EOLhyphen"/>ly appears, not only from this that its plainly and expreſly forbidden, but it is in ſuch a manner forbidden, as if there were no ſin ſo great or more carefully to be avoided then that. <hi>Above all things Swear not.</hi>
+            </p>
+            <p>
+               <hi>Above all things!</hi> What! above Idolatry, and Blaſphemy, above Murther, and Adultery, above Theft and Drunkenneſs! Is Swearing a greater Sin then either of theſe? Certainly the man<g ref="char:EOLhyphen"/>ner of Expreſſion doth plainly intimate as if it exceeded theſe, and all other ſins, and that it were abſolutely the greateſt of all Sins.</p>
+            <p>Which precept likewiſe is prefaced, with the Loving and Winning Compellation of Bre<g ref="char:EOLhyphen"/>thren; by which he would have them learn and underſtand, that it was out of perfect Love and Kindneſs to them, that he ſo earneſtly deſires them above all things to avoid Swearing.</p>
+            <p>Although we lye under many Obligations to Love, and to do good to all men, yet ought
+<pb n="17" facs="tcp:29627:9"/>we more eſpecially to Love the Brotherhood; (1 <hi>Pet.</hi> 2.17.)</p>
+            <p>The word Brother is a word of a large Ex<g ref="char:EOLhyphen"/>tent and is taken in many ſenſes, but in the more ſenſes, or reſpects, any perſons are Brethren, or the nearer they are ſuch the greater Love and kindneſs they ought to have for one ano<g ref="char:EOLhyphen"/>ther, and to adviſe each other for their good. We ought to wrong and injuſt no man, much leſs our Brethren, (<hi>Acts</hi> 7.26.) <hi>Ye are Brethren, why do ye wrong one to another?</hi> And (1 Pet. 3.8.) <hi>Love as Brethren, be pitiful, be courteous.</hi>
+            </p>
+            <p>Many and various are the Offices of Love and kindneſs that Brethren owe to each other, but amongſt them all, I know none greater then that, (<hi>Exod.</hi> 19.17.) <hi>Thou ſhalt not hate thy Brother in thy heart, thou ſhalt in any wiſe rebuke thy Neighbour, and not ſuffer ſin upon him.</hi>
+            </p>
+            <p>We cannot therefore do a greater act of kind<g ref="char:EOLhyphen"/>neſs, or give a greater Teſtimony of our Love to our Brethren, than to diſſwade them earneſt<g ref="char:EOLhyphen"/>ly from ſin, eſpecially ſuch as evidently bring them into danger of Damnation.</p>
+            <p>
+               <hi>Brethren,</hi> ſays our Apoſtle here, (<hi>v.</hi> 19. &amp;p 20. <hi>If any of you do err from the Truth, and one convert him; Let him know that he which converteth a ſinner from the errour of his way ſhall ſave a Soul from death, and cover a multitude of ſins.</hi>
+            </p>
+            <p>St. <hi>Paul</hi> writing to <hi>Philemon</hi> concerning <hi>Oneſi<g ref="char:EOLhyphen"/>nus</hi> ſays thus (<hi>v.</hi> 8.) Tho I might be much bold in Chriſt to enjoin thee that which is conve<g ref="char:EOLhyphen"/>nient yet for Love's ſake, I rather beſeech thee.
+<pb n="18" facs="tcp:29627:10"/>Thus, tho St. <hi>James</hi> might peremptorily require the Chriſtians he writes to, yet he rather uſeth the kind importunity of a Friend, then the Au<g ref="char:EOLhyphen"/>thority of an Apoſtle; Exciting them out of pure kindneſs to themſelves, and to their own Souls, above all things to avoid Swearing.</p>
+            <p>Common and vain Swearing is ſo ſilly, fool<g ref="char:EOLhyphen"/>iſh and Idle a thing, that me thinks a Man that pretends to reaſon ſhould be aſhamed of it. And I verily believe it will be difficult to give any reaſon, or gueſs how it ſhould become ſo com<g ref="char:EOLhyphen"/>mon and uſual, but becauſe it is ſo very wicked and ſinful, which is likewiſe the only reaſon that can be thought of, why it ſhould be accounted a Gentile accompliſhment and an Ornament of Speech.</p>
+            <p>But many Men are arrived to that hardneſs of heart and Searedneſs of Conſcience, that they think it a Low mean Spirited thing, and be<g ref="char:EOLhyphen"/>neath a Gentleman to be afraid of Sinning. But if they will own themſelves to be men, they muſt confeſs that if they are not afraid of Sin, they ought to be aſhamed of folly, for thoſe that Glory in their ſhame, and think wickedneſs and debauchery no blemiſh to their reputation, can<g ref="char:EOLhyphen"/>not endure, that any one ſhould think, or ac<g ref="char:EOLhyphen"/>count them Fools.</p>
+            <p>And yet among all ſins there is no one ſo vain, ſenſeleſs &amp; fooliſh as that of raſh Swearing; all ſin, indeed is but folly and madneſs; But the common Swearer is arrived to the Higheſt pitch of Folly, he is given up to a reprobate
+<pb n="19" facs="tcp:29627:10"/>mind, as St. <hi>Paul</hi> ſays of the Profligate Gentiles, (<hi>Rom.</hi> 1.28.) <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, to a ſenſleſs mind, to a mind void of Judgment and Underſtand<g ref="char:EOLhyphen"/>ing, as the word ſignifieth.</p>
+            <p>For either there is really a God, or there is not; Is there certainly a God! Doth the Swear<g ref="char:EOLhyphen"/>ers believe it, and is he ſenſible who and what he is; And doth he think himſelf wiſe in Trifling with and abuſing his holy, and ſacred name by profane and wanton Oaths?</p>
+            <p>Or if there is no God, is it not a Childiſh and Impertinent thing for thoſe that pretend to wit and reaſon to Swear by that which is not; Is this the way for Men of Honour and Cre<g ref="char:EOLhyphen"/>dit to be believed in what they affirm or deny? Or is nonſence, vanity and impertinency ſo great an ornament of diſcourſe? Is there ſuch pleaſing Rhetorick, are there ſuch taking Charms in inſignificant Oaths?</p>
+            <p>But were Swearing only a ſilly thing, a child<g ref="char:EOLhyphen"/>iſh and innocent folly, they might be indulg'd and let alone in it till they grew wiſer; they might be Objects of Pity rather than Cenſure; for who is concern'd to ſee Children taken with Toys and Baubles. I ſhall therefore, as I promiſed, ſhow that tis not only a very fooliſh thing, but a moſt heinous and pernicious ſin.</p>
+            <p>That it is exceeding ſinful will appear if we conſider, 1. That it is a ſin againſt the Law of Nature, and Reaſon; a violation of Natural Religion.</p>
+            <p>That there is a God, and that this God is in<g ref="char:EOLhyphen"/>finite,
+<pb n="20" facs="tcp:29627:11"/>eternal, omnipotent; that he is omni<g ref="char:EOLhyphen"/>ſcient, wiſe, juſt and good; that he is the moſt perfect and compleat, and alſo the Sovereign or Supreme Being: Theſe things are not more plainly revealed in Scripture, than diſcernible by the Light of Nature and Reaſon.</p>
+            <p>For St. <hi>Paul</hi> aſſures us (<hi>Rom.</hi> 1.20.) that the Inviſible things of him from the Creation are plainly ſeen, being underſtood by the things that are made, even his Eternal Power and God<g ref="char:EOLhyphen"/>head. And doth it not therefore plainly argue want of due fear and Reverence, when thoſe that have no ſenſe, conſideration or remem<g ref="char:EOLhyphen"/>brance of him, ſhall Idly and wantonly make uſe of his Sacred name in prophane and wicked diſcourſe? The Heathens themſelves held it unlawful for men to Swear by the Names of their Gods, unleſs it were done religiouſly, aw<g ref="char:EOLhyphen"/>fully, and in ſerious, and weighty Cauſes.</p>
+            <p>The Turks who are great Aſſertors of the unity of the Godhead, and Irreconcileable Ene<g ref="char:EOLhyphen"/>mies to Idolatry; Yet give in a manner the ſame honour to the name of God that they do to himſelf, of which that Learned Ambaſſador <hi>Busbequins</hi> gives ſeveral Inſtances in his Epiſtles.</p>
+            <p>He tells us that he ſaw an Army of them when they were at their Solemn devotions, and he obſerved that when in reading the Alcaron, (which is their Bible) or of their Prayers, the Prieſt pronounced the name of <hi>Mahomet</hi> they all bowed themſelves very low, but when he pronounced the name of God they fell flat upon
+<pb n="21" facs="tcp:29627:11"/>their Faces to the Ground. And he ſays that they are exceeding careful to preſerve Paper from any filth or Defilement, and that if they chance to ſee any lie ſcattered on the ground, they preſently take it up, wipe it, and put it into ſome ſafe place; and the reaſon they give for it is this that for ought they know, the name of God hath been, or is written upon it. And if any one doth tread, or ſit upon the Alcaron, they eſteem it an unpardonable Crime: Becauſe they look upon it as a contempt caſt upon that Book, in which the Name of God is ſo often written.</p>
+            <p>And ſhall Ignorance and Superſtition make them more tender of the name of God, and more fearful to abuſe it, then true Religion makes Us?</p>
+            <p>Certainly the ſame Light of nature and reaſon that tells us that there is a God, who is Al<g ref="char:EOLhyphen"/>mighty in Power, Terrible in Majeſty, and who ought to be feared and adored by us, will tell us alſo, that we ought not to be prophane and abuſe his ſacred name, or Attributes, by vain and Raſh Oaths or Curſes.</p>
+            <p>For what Slighting, Contemning and Under<g ref="char:EOLhyphen"/>valuing of God is it, when Men ſhall Idly Swear by his Glorious name in moſt light, impertinent, triffling matters; and yet many there are ſo void of the fear of God, that they Cuſtomarily Swear to ſuch vain and fooliſh Things as a wiſe and ſober man would be aſhamed barely to ut<g ref="char:EOLhyphen"/>ter with his Mouth.</p>
+            <pb n="22" facs="tcp:29627:12"/>
+            <p n="2">2. It is a Sin plainly and peremptorily for<g ref="char:EOLhyphen"/>bidden, and ſurely if we ſtood in no other re<g ref="char:EOLhyphen"/>lation to God than that of Creatures to their Creator, his Command is ſufficient to oblige us to obedience.</p>
+            <p>If the Gentiles who had only the Law of rea<g ref="char:EOLhyphen"/>ſon, and light of nature to direct them, thought themſelves obliged to abſtain from this Sin; how much more ought thoſe to dread it, to whom God has forbidden it by an expreſs and promul<g ref="char:EOLhyphen"/>gate Law?</p>
+            <p>If we are not downright Atheiſts, if we have any belief that there is a God who made us, and not we our ſelves, we cannot but confeſs that he hath a Soveraign and Undoubted power over us, that he hath a right to command us, that all his commands are to be anſwer'd by us with ſuch an unlimitted obedience as admits of no Exception or Reſerve, that his will being made known and diſcovered to us ought to be the rule of all our Actions, and his Law the meaſure and ſtandard of obedience.</p>
+            <p>A common and cuſtomary Swearer that owns there is a God, and who hath ſtrictly forbidden men to take his name in vain, muſt needs be be the moſt wilful, Perverſe and Reprobate Sin<g ref="char:EOLhyphen"/>ner on this ſide Hell; for he doth in effect ſay as <hi>Pharoah</hi> did, <hi>who is the Lord that I ſhould obey him?</hi> He bids open defiance to his Authority: Such an one is as obſtinately wicked as were the Jews in the Height of their Impiety, when they told God plainly that they would not obey
+<pb n="23" facs="tcp:29627:12"/>his commands, (<hi>Jer.</hi> 22.21.) <hi>I ſpake unto thee in thy proſperity, but thou ſaidſt, I will not hear: This hath been thy manner from thy youth that thou haſt not obeyed my voice.</hi>
+            </p>
+            <p>That Prophet tell us, (<hi>Chap.</hi> 42.2.) of ſome who deſired him to enquire of God what courſe they ſhould take, promiſing faithfully that what ever God ſhould command them, they would certainly do it, but when the Prophet brought them ſuch an Anſwer as they did not like, they were ſo far from doing as they promis'd that they railed upon him and abuſed him; This was a great Sin in them, and yet they had ſome pretence for their diſobedience, <hi>viz.</hi> they did not believe that God had ſent ſuch an anſwer by him, but that <hi>Baruch</hi> and he had conſpired to<g ref="char:EOLhyphen"/>gether on purpoſe to betray them into the hand of the <hi>Caldeans,</hi> (<hi>Jer.</hi> 43.3.)</p>
+            <p>Certainly common and profane Swearers are far worſe then thoſe, more bold and refractory, for they own that God hath forbidden them to take his name in vain, and yet they will do it; What is this but to ſay plainly as thoſe, (<hi>Job</hi> 21.14.) <hi>depart from us, we deſire not the knowledge of thy ways, what is the Almighty that we ſhould ſerve or obey him?</hi> They are certainly the moſt wilful, ſtubborn, the moſt perverſe and reſolved Sinners upon earth: As for other Sinns, tho they are Great and Heinous, yet thoſe that are Guilty of them have ſome ſhame and modeſty with them, for they endeavour to conceal and hide them, but common Swearers are open
+<pb n="24" facs="tcp:29627:13"/>and braſenfac'd, audacious, and impudent. The lyer will ſo tell his tale, and contrive his ſtory, that it may (if poſſible) gain belief, at leaſt that it may not be contradicted or diſproved; and rather then it ſhall be ſo, he will add an Oath to his lie to preſerve his credit, and that he may not be accounted a lyer; which plain<g ref="char:EOLhyphen"/>ly ſhows he is aſhamed of lying, tho' not of Swearing.</p>
+            <p>The eye of the Adulterer waiteth for the Twilight, ſaying, no eye ſhall ſee me, and diſ<g ref="char:EOLhyphen"/>guiſeth his face: In the dark they dig through houſes which they had markt for themſelves in the day time, they know not the light, for the morning is to them even as the ſhadow of Death, (<hi>Job</hi> 24.15.) the Adultreſs will (if poſſible) ſo conceal her Lewdneſs, that there ſhall no more ſign be ſeen of it, then of the way of an Eagle in the Air, a Serpent on the Rock, of a ſhip in the Sea: <hi>ſhe eateth, and wip<g ref="char:EOLhyphen"/>eth her mouth, and ſaith, I have done no wickedneſs,</hi> (Prov. 30.20.) The Thief endeavours to conceal his Theft, as much for ſhame as fear, and is as much aſhamed as affraid when he is found out, and diſcovered (<hi>Jer.</hi> 2.26.)</p>
+            <p>But the common Swearer has an Whores Forehead, that refuſeth to Bluſh; he declares his ſin as <hi>Sodom,</hi> and hides it not; (<hi>Jer.</hi> 3.9.) and is arrived to the ſame Pitch of Impudence with thoſe (<hi>Jer.</hi> 6.15.) who, when they had committed all manner of abomination, were not aſhamed, neither could they bluſh; which
+<pb n="25" facs="tcp:29627:13"/>ſhows they are hardned in it.</p>
+            <p>So that tis no abatement of the heinouſneſs of this Sin that it doth not like others ſhelter it ſelf under the cover of hypocriſy, but appears openly as it is, but rather a great aggravation of it.</p>
+            <p>For God has not only forbidden men to make uſe of his ſacred name vainly &amp; irreverently, but he has in ſeveral places requir'd them when ever they uſe it, to do it with the greateſt awful<g ref="char:EOLhyphen"/>neſs and fear, the greateſt Veneration and Re<g ref="char:EOLhyphen"/>verence, (<hi>Lev.</hi> 19.12.) <hi>Thou ſhalt not prophane the Name of thy God; I am the Lord,</hi> (<hi>Deut.</hi> 28.58.) God Threatns thus, <hi>If thou wilt not obſerve to do all the words of this Law, that thou mayeſt fear this glorious and fearful name,</hi> (The Lord thy God) <hi>Then the Lord ſhall make thy Plagues wonderful, and the Plagues of thy Seed, even Great Plagues, and of long continu<g ref="char:EOLhyphen"/>ance.</hi>
+            </p>
+            <p>And this doubtleſs is the great reaſon why the name of God is ſo often in Scripture put for God himſelf, That we may know, that he that by raſh Oaths and Curſes prophaneth the former, doth thereby affront and diſhonnour the latter.</p>
+            <p>In brief; The Law of God is ſo plain and peremptory in this caſe, that tis impoſſible that any ſhould be guilty of the wilful and Cuſtomary Breach of it, but muſt Sin againſt, and wound his own Conſcience, if he have any.</p>
+            <pb n="26" facs="tcp:29627:14"/>
+            <p n="3">3. This Law of God which forbids raſh and vain Swearing is no hard or difficult Law, but
+'tis as eaſy as 'tis reaſonable. <hi>If</hi> (ſaid <hi>Naaman</hi>'s Servants to him) <hi>the Prophet had bidden thee do ſome great thing, wouldſt thou not have done it?</hi> If God commands us any thing that is diffi<g ref="char:EOLhyphen"/>cult, yet we ought to ſet about it; and if he re<g ref="char:EOLhyphen"/>quires us to abſtain from doing any thing, we ought not to do that thing, how much ſoeve<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> we are inclined to it; and can we not for his ſake forbear the doing of that which we ought not to do if he had not forbidden it. When God commanded <hi>Abraham</hi> to offer up his only Son, he did not refuſe to do it, and ſhall not we leave a Fooliſh Sin, when he tells us how odious and diſpleaſing
+'tis to him?</p>
+            <p>Of all the Laws of the Ten Commandments this is by far the eaſieſt to be kept, which for<g ref="char:EOLhyphen"/>bids us to take the name of God in vain: at leaſt as far as it reſpects vain Oaths.</p>
+            <p>Conſidering how prone Mankind are to Idolatry, and how univerſally the world was overrun with it; It was an hard matter to make the Jews obſerve the two firſt Com<g ref="char:EOLhyphen"/>mandments.</p>
+            <p>The Law that concern'd the Sabbath was looked upon then as burthenſom, and uneaſie, and againſt their profit and intereſt as they thought, (<hi>Amos</hi> 8.5.)</p>
+            <p>The Laws which forbid, Murther, Adultery Theft, Pride and Intemperance, are very dif<g ref="char:EOLhyphen"/>ficult to be kept, conſidering the great depravity
+<pb n="27" facs="tcp:29627:14"/>of our Natures: it requires great care, watch<g ref="char:EOLhyphen"/>fulneſs, and ſelf-denyal to yield a ſincere and in<g ref="char:EOLhyphen"/>ward obedience to thoſe Laws. The Sins that are forbidden by thoſe Laws are ſo hard to be avoided, that our Saviour Compares it to the cutting off a right hand, and plucking out a Right eye, but this is not ſuch.</p>
+            <p>Had God commanded us to forbear Meat when we were hungry, or Drink when we were thirſty, or Sleep and Reſt when we were weary, we might ſeem to have ſome cauſe to complain of the hardneſs and uneaſi<g ref="char:EOLhyphen"/>neſs of ſuch Commands. But when he requires us not to make uſe of his Name vainly and ir<g ref="char:EOLhyphen"/>reverently, is this ſuch an unreaſonable Re<g ref="char:EOLhyphen"/>ſtraint, as not to be endured? Are ſuch Bonds as theſe ſo cumberſom, that we muſt needs burſt them aſunder, are theſe Cords ſo uneaſie that we muſt caſt them from us? what is this but perverſeneſs and obſtinacy?</p>
+            <p>There was a time when God did impoſe up<g ref="char:EOLhyphen"/>on the Jews burthenſom and uneaſie Laws in<g ref="char:EOLhyphen"/>deed: For ſo St. <hi>Peter</hi> calls the Ceremonial Law, (<hi>Acts</hi> 15.10.) <hi>Why tempt you God to put a Yoke upon the Diſciples, which neither our Fathers nor we were able to bear?</hi> St. <hi>Paul</hi> (<hi>Gal.</hi> 5.1.) calls it a Yoke of Bondage, and ſays, that whilſt the Church continued under the obligation of it, it was as a Child in its minority.</p>
+            <p>Yea, God himſelf calls them <hi>Statutes that were not good, and Judgments by which men ſhould not live,</hi> (Ezek. 20.25.)</p>
+            <pb n="28" facs="tcp:29627:15"/>
+            <p>And yet whilſt that Law ſtood in force, there were never a zealous, godly and conſcientious Jew, that would break any part of it: The greateſt Extremities could not make them eat any thing which that Law forbad; and if at any time they did touch any thing that was un<g ref="char:EOLhyphen"/>clean, it was againſt their will.</p>
+            <p>And did they willingly abſtain from every thing that was forbidden by that Law, tho' the things forbidden were innocent and harm<g ref="char:EOLhyphen"/>leſs, and tho they were abridg'd of their Li<g ref="char:EOLhyphen"/>berty, only that God might make tryal of their Obedience?</p>
+            <p>And dare we with unhallowed mouths pro<g ref="char:EOLhyphen"/>fane the ſacred Name of God, which he hath de<g ref="char:EOLhyphen"/>clared he will have no man take in vain, when 'tis not only ſo reaſonable, but eaſie for us to abſtain from it?</p>
+            <p>Now that the Law that forbids raſh and pro<g ref="char:EOLhyphen"/>fane Swearing, is not only a moſt reaſonable, but eaſie Law, will plainly appear if we con<g ref="char:EOLhyphen"/>ſider further,</p>
+            <p n="4">4ly. That no man can pretend he has any temptation to break it. There are very few other ſins, but men may have ſome tempta<g ref="char:EOLhyphen"/>tions to commit them; but the Swearer can<g ref="char:EOLhyphen"/>not poſſibly have any worthy of that name.</p>
+            <p>If a man murther his Neighbour, perhaps that Neighbour is his Enemy, or he thinks him ſo, or he hath wronged or injured him, and the ſweetneſs of Revenge tempts him.</p>
+            <p>Or perhaps there is a proſpect of gain and
+<pb n="29" facs="tcp:29627:15"/>advantage in the caſe; which tempted thoſe Robbers <hi>Solomon</hi> ſpeaks of, (<hi>Prov.</hi> 1.11.) who ſaid, <hi>Come, let us lay wait for innocent blood,</hi> &amp;c. we ſhall find all precious ſubſtance, and fill our houſes with ſpoil.</p>
+            <p>The Adulterer gratifies his natural inclina<g ref="char:EOLhyphen"/>tions, his temper and conſtitution prompts him to uncleanneſs, and when he meets with a pleaſing and deſirable object, and a fit opportu<g ref="char:EOLhyphen"/>nity, he is drawn aſide by his own luſts and enticed, (<hi>James</hi> 1.14.) ſo that he cannot deny himſelf, nor reſiſt the power; he is allured with the ſweetneſs of ſtoln waters, and the plea<g ref="char:EOLhyphen"/>ſantneſs of bread eaten in ſecret; <hi>Prov.</hi> 9.7.) and the hope of taking his fill of love prevails upon him, (<hi>Prov.</hi> 7 18.)</p>
+            <p>The Drunkard perhaps has a dry and thirſty conſtitution, and the Liquor is grateful and pleaſing to him; or his love of Company and Merriment ingages him in that ſottiſh kind of Debauchery.</p>
+            <p>He that robs, or ſteals, or couſens, propoſeth to himſelf ſome advantage of gain or profit.</p>
+            <p>If the ambitious man is guilty of Lying, or Diſſimulation, it is to get honour and prefer<g ref="char:EOLhyphen"/>ment; if men are quarrelſom and contentious, tis their intereſt makes them ſo. And
+'tis hard to find out any ſin to which men have not ſome <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>emptation or other.</p>
+            <p>But Swearing is a ſin of meer wilfulneſs and <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>erverſeneſs, for which no one that is guilty of <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> can alledge a reaſon, or juſtly pretend a <gap reason="missing" extent="4 pages">
+                  <desc>〈4 pages missing〉</desc>
+               </gap>
+               <pb n="34" facs="tcp:29627:16"/>paſſionate, when he will ſtab a man upon lit<g ref="char:EOLhyphen"/>tle or no provocation; And that he is very ill Natured and Malicious, that will utterly ruine a man for an inconſiderate word.</p>
+            <p>And tis a ſign that Atheiſme, and Infidelity, Prophaneneſs and Irreligion, is deeply rooted in that man from whole mouth Oaths and Curſes flow naturally, and Inſenſibly, when there is neither temptation to it, nor occaſion for it.</p>
+            <p n="5">5ly. There are few or no other ſins, which thoſe that are guilty of them, may not find ſome excuſe for; But no man can have any for raſh and vain Swearing: He that is guilty of it, lying under no temptation of profit, pleaſure, and honnour, which are the three great and powerful temptations by which, or at leaſt by one of which men are drawn into moſt other Sins.</p>
+            <p>Indeed thoſe that are guilty of this abomina<g ref="char:EOLhyphen"/>ble ſin are apt to alleadg ſome trivial excuſe in Mitigation of their guilt; but they are very Trivial ones indeed.</p>
+            <p>The moſt common Excuſe is Anger, paſſion, and provocation. But this is no Excuſe to many who are Uſually, and Cuſtomarily guil<g ref="char:EOLhyphen"/>ty of this Sin in common diſcourſe, and that as well when they are pleas'd, as Angry.</p>
+            <p>But is Anger a Sufficient Excuſe for it? what cannot a Man be Angry but he muſt Sin; Sup<g ref="char:EOLhyphen"/>poſe a man hath juſt cauſe to be Angry; he is baſely and unworthily injured, and abuſed;
+<pb n="35" facs="tcp:29627:16"/>What then muſt he revenge himſelf upon God, muſt he fly in the face of his maker; What hurt or injury hath he done him?</p>
+            <p>This is as fooliſh and unreaſonable, as if a man that is injured by his Enemy, ſhould revenge the injury upon his beſt Friend; and unworthi<g ref="char:EOLhyphen"/>ly revile and abuſe him, for that in which he had no hand or concern.</p>
+            <p>This is to Act like Brute Beaſts, who when they are Chafed and Inraged, Aſſault any Per<g ref="char:EOLhyphen"/>ſons that ſtand in their way, not being able to di<g ref="char:EOLhyphen"/>ſtinguiſh who did, or who did not injure or offend them, but take every one for their Foe.</p>
+            <p>Its ſaid (<hi>Iſay.</hi> 57.20.) That <hi>the wicked are like to the troubled ſea, when it cannot reſt, whoſe waters caſt up mire and dirt.</hi>
+            </p>
+            <p>Tis the violence and fury of the Wind, that diſturbs the Sea, and makes it unquiet, but the mire and dirt it throws up, is upon the ſhore, that is not concerned.</p>
+            <p>Thus what ever it be that diſturbs the Swear<g ref="char:EOLhyphen"/>er, and puts him into a Paſſion, he vomits up all the filthineſs of his heart, and caſts it upon God! Like the <hi>Aſſyrian</hi> King who being offend<g ref="char:EOLhyphen"/>ed and inrag'd againſt <hi>Iſrael,</hi> vents his malice and ſpleen, and his Blaſphemous Reproaches againſt his Maker; and in his rage he abuſes him moſt, that ſet him up, and who gave him all the power that he had, (<hi>Iſa</hi> 37.23.)</p>
+            <p>If the Swearer in his paſſion doth injure or hurt the perſon that provoked him, it might
+<pb n="36" facs="tcp:29627:17"/>look like ſomething of an excuſe; But if he were never ſo Juſtly Provoked, and hath never ſo much cauſe to be angry, is this a ſufficient Reaſon, or indeed a tolerable excuſe, for his abuſing the name and honnour of God?</p>
+            <p>
+               <hi>I ſaid in my haſte</hi> (ſays <hi>David</hi>) <hi>all men are lyars,</hi> (<hi>Pſa.</hi> 116.11. when <hi>Saul</hi> perſecuted him, and his own People ſpake of ſtoning him; he was ready to conclude there was no truſt in man; and yet even then, when the falſeneſs and trea<g ref="char:EOLhyphen"/>chery of men had put him into the greateſt paſſion, he kept up an awful reverence of God, he durſt not let his Tongue looſe againſt him; no, for, ſays he, (<hi>v.</hi> 12.) <hi>what reward ſhall I give unto the Lord,</hi> &amp;c?</p>
+            <p>Men may unworthily abuſe us, affront and injure us, and move us to great impatience; but what, muſt we then curſe and ſwear, as if God were the perſon that provoked us? and yet this is the Swearer's caſe, who makes his paſſion and anger an excuſe for his ſin, which is, and muſt needs be a very fooliſh pretence, un<g ref="char:EOLhyphen"/>leſs God were the perſon that had wrongfully and unjuſtly injured, and provoked him.</p>
+            <p>Certainly anger and paſſion can be no excuſe for Swearing, unleſs it be God that gives the provocation, no more than 'tis for a man's re<g ref="char:EOLhyphen"/>venging himſelf on his Friend, becauſe he is injured or affronted by his Enemy; as I have already ſhown.</p>
+            <p>It was a raſh and wicked ſpeech of <hi>Jehoram</hi> the Son of <hi>Ahab,</hi> when <hi>Samaria</hi> was ſtraitly be<g ref="char:EOLhyphen"/>ſieged
+<pb n="37" facs="tcp:29627:17"/>by the <hi>Syrians,</hi> and the Famine was ſo ſore, that the Women ſlew their own Children to feed on, (2 <hi>Kings</hi> 6.31.) <hi>God do ſo to me, and more alſo, if the head of</hi> Eliſha <hi>the Son of</hi> Shaphat <hi>ſhall ſtand upon him to day;</hi> why, what hurt had <hi>Eliſha</hi> done him? had he call'd in the <hi>Syrians,</hi> or cauſed the Famine? no; it was his own Ido<g ref="char:EOLhyphen"/>latry and wickedneſs that brought thoſe Judg<g ref="char:EOLhyphen"/>ments upon him, and yet he ſwore he would revenge himſelf on the Prophet.</p>
+            <p>But he was a true Son of <hi>Ahab</hi> and <hi>Jezebel;</hi> for thus <hi>Ahab</hi> reproached <hi>Elijah</hi> as his Enemy, who was indeed his beſt Friend; &amp; <hi>Jezebel</hi> ſwore ſhe would take off his head, becauſe he had ſlain the Prophets of <hi>Baal;</hi> when he was only an In<g ref="char:EOLhyphen"/>ſtrument in God's hand, and only ſaid and did what he was commanded; which they might have known and underſtood if they would; and probably they did but God was too high, and out of the reach of their malice and ſpight, and therefore they would wreck their revenge upon his Prophet.</p>
+            <p>When <hi>Corah</hi> and his Brethren the Sons of <hi>Levi,</hi> being full of ſpite and envy, for that <hi>Aaron</hi> and his Sons engroſſed the Prieſt's Office, and made them their Underlings, who thought themſelves as worthy of the Prieſthood as they; <hi>Moſes</hi> thus reaſons the caſe with them, (<hi>Numb.</hi> 16.9. <hi>Seemeth it a ſmall thing unto you, that the Lord God of</hi> Iſrael <hi>hath ſeparated you from the Con<g ref="char:EOLhyphen"/>gregation of</hi> Iſrael, <hi>to bring you near to himſelf to do the ſervice of the Tabernacle of the Lord, and to
+<pb n="38" facs="tcp:29627:18"/>ſtand before the Congregation to miniſter unto them; and he hath brought thee near unto him, and all thy Brethren the Sons of</hi> Levi <hi>with thee, and ſeek ye the Prieſthood alſo?</hi>
+            </p>
+            <p>For which cauſe both thou, and all thy com<g ref="char:EOLhyphen"/>pany are gathered together againſt the Lord, and what is <hi>Aaron</hi> that ye murmure againſt him? But this they would not underſtand, that it was by God's appointment, that <hi>Aaron</hi> and his Sons had the Prieſthood, and that he had given them the Levites to be their under-Offi<g ref="char:EOLhyphen"/>cers and Aſſiſtants; but they pretended that
+'twas <hi>Aaron</hi>'s own pride and ambition, that cauſed him to lift up himſelf above the People of the Lord, who were as holy as he; They would not own that their Quarrel was againſt God, but againſt <hi>Aaron:</hi>
+            </p>
+            <p>But now Swearers are more bold and impu<g ref="char:EOLhyphen"/>dent in their Sin than theſe, who ever affronts, injures, or abuſeth them, yea whoever doth or ſpeaks any thing that is diſpleaſing to them, they no ſooner fall into a paſſion, but God is made the Object of their fury, as if he were the perſon that injured them.</p>
+            <p>But be not deceived God is not mocked, let not man make anger or provocation an excuſe for Swearing; but let him take heed, leſt he provoke God to Swear too; <hi>(i. e.)</hi> to Swear in his Wrath, as he once did concerning the <hi>Iſ<g ref="char:EOLhyphen"/>raelites</hi> in the day of their provocation, that they ſhould never enter into his reſt.</p>
+            <p>The other Excuſes that Swearers have for
+<pb n="39" facs="tcp:29627:18"/>their Sin, are ſo ſilly and idle, ſo vain and fool<g ref="char:EOLhyphen"/>iſh, that they are not worth mentioning, yea they are ſuch as they themſelves do not openly alleadge, but rather leave others to gueſs at them; and they are the commonneſs and the gentility of the Sins.</p>
+            <p>As to the firſt, 'tis true that ſuch Sins as are moſt common and uſual, are little taken notice of; and men generally account them the ſmaller, for that they are ſo frequent.</p>
+            <p>Such Sins as are rarely heard of, are much taken notice of, and they beget wonder and Aſtoniſhment; But where they are rife, they are eſteemed ſmall and inconſiderable.</p>
+            <p>The in of <hi>Sodomy</hi> in all Chriſtian Nations is ſeldom heard of; But in <hi>Sodom</hi> no one was aſhamed of it and among the Turks ſmall ac<g ref="char:EOLhyphen"/>count is made of it.</p>
+            <p>The <hi>Romans</hi> were great pretenders to truth and could not endure lying: But the <hi>Cretans</hi> who were always lyers, and the <hi>Grecians</hi> their Neigh<g ref="char:EOLhyphen"/>bours (if the <hi>Romans</hi> did not abuſe them) ra<g ref="char:EOLhyphen"/>ther gloried in it, then took ſhame at it. In all Civiliz'd Nations a Thief is moſt deſpicable and contemptible; and yet the <hi>Colchians</hi> hard<g ref="char:EOLhyphen"/>ly think their Children good for any thing who are not cunning and dextrous at it: <hi>Buſbequins</hi> (<hi>Epiſt.</hi> 3. p. 208.)</p>
+            <p>It's well known that this Nation has been formerly admired, and mightily commended for it's ſobriety <hi>[Tu non bibis, Angle, &amp;c.]</hi> &amp; drun<g ref="char:EOLhyphen"/>kenneſs as it was rarely ſeen, ſo 'twas accoun<g ref="char:EOLhyphen"/>ted
+<pb n="40" facs="tcp:29627:19"/>ſo odious and ſhameful, that as St. <hi>Paul</hi> ſays, (1 <hi>Theſ.</hi> 5.7.) <hi>They that were drunk were drunk in the night;</hi> 'twas a ſin that did not dare appear bare-faced, and in the light; he that was known to have been drunk was forced to keep private, and was aſhamed to ſhow his face; But now 'tis grown ſo common and uſual, that many hard<g ref="char:EOLhyphen"/>ly think it a ſin at moſt a very ſmall one.</p>
+            <p>But what then, doth the commonneſs of a ſin extenuate it, and make it leſs? No certainly,
+'tis rather an aggravation of it; ſhews the great decreaſe of Piety and Godlineſs, and the great encreaſe of wickedneſs, profaneneſs, and debauchery.</p>
+            <p>'Tis the commonneſs of a ſin that makes it cry ſo loud for vengeance; Had there been but ten Righteous Perſons in <hi>Sodom,</hi> God would have ſpared it; and had there been but ten guil<g ref="char:EOLhyphen"/>ty of thoſe great ſins, 'tis probable he would not have deſtroyed it; 'Twas becauſe thoſe great ſins were grown ſo common, that God ſaid, that they were very grievous, and the cry of them was come up before him: (<hi>Gen.</hi> 18.20.)</p>
+            <p>When great, and notorious ſins do univerſally and generally prevail in a Nation; And little or no notice is taken of them, and few are con<g ref="char:EOLhyphen"/>cerned about them, 'tis a ſign that the meaſure of it's ſins are full, and that 'tis ripe for venge<g ref="char:EOLhyphen"/>ance: As when all fleſh had corrupted it's ways, and the earth was filled with violence, 'twas time for the Floud to come, and ſweep them away: (<hi>Gen.</hi> 6.11.)</p>
+            <pb n="41" facs="tcp:29627:19"/>
+            <p>Thus, when dolatry and Lewdneſs was grown ſo rife among the <hi>Canaanites,</hi> as that there was hardly one to be found among them that was not guilty, their Land was no longer able to bear the burthen of their wickedneſs, but was forced them to ſpue out.</p>
+            <p>And God charges the <hi>Iſraelites</hi> that they ſhould take heed, that they ſhould not tolerate any of them, ſuch as Idolatry, uncleanneſs, or the like, leſt if they ſhould become cuſtomary, the ſame land ſhould caſt them out too, (<hi>Levit.</hi> 18.28.)</p>
+            <p>Was Lying the ſmaller a ſin or the more ex<g ref="char:EOLhyphen"/>cuſable in the <hi>Cretans</hi> becauſe 'twas univerſal; no, rather 'twas much the greater; for which cauſe St. <hi>Paul</hi> ſtrictly charges <hi>Titus</hi> that he ſhould rebuke them ſharply, (<hi>Tit.</hi> 1.13.)</p>
+            <p>We ought not therefore to follow a multi<g ref="char:EOLhyphen"/>tude to do evil, (<hi>Exod.</hi> 22.3.) for 'twere eaſy to demonſtrate that the more common a ſin is, the greater, and more heinous it is in the ſight of God.</p>
+            <p>Again to make Swearing a mark and token of Gentility is the greateſt abuſe and higheſt af<g ref="char:EOLhyphen"/>front can be put upon the Gentry. Gentility was deſigned as the reward of virtue, and all Civilized Nations did ever juſtly expect that the gentry ſhould raiſe themſelves to an higher pitch then the commonalty, and ſignalize themſelves by worthy and virtuous actions.</p>
+            <p>If Swearing be a Gentile accompliſhment, Gentility will ſoon become ridiculous and con<g ref="char:EOLhyphen"/>temptible
+<pb n="42" facs="tcp:29627:20"/>in the eyes of all ſober men; And ſuch Gentlemen, how much ſoever they may be fear'd, will never be loved or eſteemed by any; yea they are the very ſcorn and contempt of the Rabble.</p>
+            <p>And if to be able to mouth an Oath gracefully (as ſome ſpeak) ſhall be thought a gentile qua<g ref="char:EOLhyphen"/>lification to ſwear like a Gentleman, will ſoon become as common and ſcandalous a Proverb, as to be as drunk as a Begger. How rhetorically ſuch graceful Oaths may ſound in ſome mens ears, or what tropes or figures they may fancy in them, I know not; ſure I am, that Swearing is none of that Salt with which <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t. <hi>Paul</hi> would have us ſeaſon our ſpeech to make it ſavoury and pleaſing to ſober and good men.</p>
+            <p>
+               <hi>Solomon</hi> tells us, <hi>Pro.</hi> 14.9.) <hi>fools make a mook at ſin,</hi> but what egregious fools are they that think it a Grace and Ornament; What Grace, what Ornament can that be in which the mean<g ref="char:EOLhyphen"/>eſt Beggar and the veryeſt fool that is able to ſpeak, can come up equal with them?</p>
+            <p>In brief; As Swearers are the moſt nonſen<g ref="char:EOLhyphen"/>ſical among men; ſo all the excuſes they can make for it are idle, ſilly and impertinent; it being a ſin by which no man can gain any thing beſides everlaſting damnation, which brings me to ſpeak of the reaſon of the prohi<g ref="char:EOLhyphen"/>bition, why Chriſtians ſhould above all things abſtain from Swearing; <hi>viz.</hi> Leſt they ſhould fall into condemnation.</p>
+            <p>The reaſon why the Scribes and Phariſees
+<pb n="43" facs="tcp:29627:20"/>looked upon the Obligation of the Law to be chiefly external, and conſequently why they were very careful to avoid the outward acts of Murther Adultery, Theft, and falſe Witneſs; but made little or nothing of Anger, Envy, or Malice (eſpecially towards Enemies) or of Luſt or Covetouſneſs, was, becauſe they obſerved that there were no puniſhments appointed for theſe latter by the Judicial Law.</p>
+            <p>They accounted the Tenth Commandment to be a Guard or Fence of the Laws of the Se<g ref="char:EOLhyphen"/>cond Table by way of advice or counſel, rather than properly any part of it; and therefore they thought, that if a perſon did keep himſelf from doing actually any hurt or injury to his Neighbour, he did not violate that Law tho' he were guilty of the ſins of Malice, Luſt and Co<g ref="char:EOLhyphen"/>vetouſneſs in his heart and deſires; or if they were ſins, they eſteemed them too ſmall and in<g ref="char:EOLhyphen"/>conſiderable to deſerve puniſhment, becauſe God had not expreſly threatned any puniſh<g ref="char:EOLhyphen"/>ment to them.</p>
+            <p>And ſo in like manner here, they obſerving that tho' there were the ſevereſt puniſhments denounced in the Law, and by the Prophets againſt Perjury, or falſe Swearing, yet there were none againſt raſh vain Swearing; they thought it but a ſmall and inconſiderable ſin, or rather no ſin at all, eſpecially when they ſwore by the Creatures.</p>
+            <p>Indeed they pretended to have that awful veneration of the Name of God, that they very
+<pb n="44" facs="tcp:29627:21"/>ſeldom ſwore by it but in the matters of weight and concern; And as a ſolemn confirmation of ſome great and important truth, according to that, (<hi>Jer.</hi> 4.2) <hi>Thou ſhalt ſwear, the Lord Liveth, in Truth, in Judgment, and Righteouſneſs.</hi>
+            </p>
+            <p>Yea 'tis very evident from, (<hi>Eccles.</hi> 23.9.) that the wiſe and devout among the Jews did very much condemn raſh and vain ſwearing, or taking God's Name in vain, as very dangerous and inconvenient if not abſolutely ſinful and wicked in and of it's ſelf.</p>
+            <p>Where the Son of <hi>Sirach</hi> adviſeth thus; Ac<g ref="char:EOLhyphen"/>cuſtom not thy ſelf to Swearing, neither uſe thy ſelf to the naming of the holy one: For as a Servant that is continually beaten ſhall not be without the blue mark, ſo he that Sweareth, and nameth God continually, ſhall not be fault<g ref="char:EOLhyphen"/>leſs.</p>
+            <p>Yea ſo diſtaſtful and odious was common Swearing to the wiſe and religious, that the ſame perſon ſays, (<hi>Chap.</hi> 27.14.) <hi>the diſcourſe of fools is irksome, and their ſpeech is the wantonneſs of ſin;</hi> The talk of him that Sweareth much maketh their hair ſtand upright, and their braules make one ſtop his ears; As it is a ſin therefore diſpleaſing to God, ſo 'twas odious to good men, 'tho it doth not appear, there was any bodily puniſhment, or Pecuniary Mulct an<g ref="char:EOLhyphen"/>next to it by the Judicial Law.</p>
+            <p>But as our Saviour ſhows (<hi>Mat.</hi> 5.20. that not only Murther, but raſh Anger, and appro<g ref="char:EOLhyphen"/>brious words, and whatever elſe proceeded from
+<pb n="45" facs="tcp:29627:21"/>Malice, or envy was prohibited by God's Law, and 'tho the Judicial Law made no proviſion, for the puniſhment of ſuch as were guilty of them if they did not actually injure their Neigh<g ref="char:EOLhyphen"/>bours, yet God would ſeverely puniſh them without repentance, (<hi>Mat.</hi> 5.20.) <hi>Whoſoever is angry with his Brother without a cauſe ſhall be in danger of the Judgment</hi> &amp;c.</p>
+            <p>And as he declares (<hi>v.</hi> 6.) <hi>That whoſoever did look upon a Woman to luſt after her, had committed Adultery with her already in his heart, (i. e.)</hi> had broken and violated that Law, the breach of which God had ordained ſhould be puniſhed with death: And tho' becauſe ſuch inward Adultery of the heart is not diſcoverable, neither doth it actually hurt any one, the Magiſtrate had no authority to puniſh ſuch an one with death: Yet he ſhall not without repentance eſcape puniſhment from God after death, as we may evidently collect and infer from what fol<g ref="char:EOLhyphen"/>lows; (<hi>v.</hi> 29.) <hi>Therefore if thy right Eye offend thee, pluck it out, and caſt it from thee; for it is profitable for thee that one of thy members periſh, and not that thy whole body ſhould be caſt into Hell.</hi>
+            </p>
+            <p>So in like manner in the caſe of Oaths; he ſhows that the Third Commandment did not only forbid Perjury, but raſh Oaths, and vain Swearing; (<hi>v.</hi> 33.) <hi>Ye have heard that it hath been ſaid by them of old time, Thou ſhalt not for<g ref="char:EOLhyphen"/>ſwear thy ſelf, but ſhalt perform unto God thy Vows. But I ſay unto you, Swear not at all,</hi> &amp;c.</p>
+            <p>As if he had ſaid, You have a Tradition
+<pb n="46" facs="tcp:29627:22"/>that the Third Commandment, and thoſe other. Precepts concerning Oaths, do only forbid falſe Swearing; and that to ſwear by the Name of God (provided the thing ſworn to is true) in common diſcourſe, in light and trivial matters is hardly a ſin, but to ſwear by the Creatures is no ſin at all</p>
+            <p>But I ſay unto you, that all manner of vain Swearing, whether by God himſelf, or any of his Creatures, eſpecially ſuch as ſtand in any near Relation to him is ſinful, and a violation of that Law, which forbids you to take his name in vain.</p>
+            <p>And his words imply, that tho' there was no outward puniſhment appointed by the Law for ſuch vain and raſh Swearing, yet ſuch as were guilty of it ſhould no more eſcape the Judg<g ref="char:EOLhyphen"/>ment of God then thoſe that were angry with their Brethren without a cauſe; that were Envi<g ref="char:EOLhyphen"/>ous, Malitious, and Revengful, or thoſe who did commit Adultery in their hearts, none of which without Repentance ſhould eſcape the vengeance of Hell Fire.</p>
+            <p>Now the reaſon why the Judicial Law did not puniſh vain, Idle, and raſh Swearing, was much the ſame with that for which it did not puniſh Malice, and Luſt, <hi>(viz.)</hi> becauſe it could not be certainly known who was guilty, and who not.</p>
+            <p>The Lawyers ſay That the imagining, deſign<g ref="char:EOLhyphen"/>ing and contriving the death of the King is Trea<g ref="char:EOLhyphen"/>ſon, but no man ſhall ſuffer for this, until it i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <pb n="47" facs="tcp:29627:22"/>proved by the Overt act (as they call it) that is, till it be diſcovered and proved by ſome word or action.</p>
+            <p>The ſinfullneſs and malignity of the Sear<g ref="char:EOLhyphen"/>er, is the Impiety of his heart, the want of the Love and fear of God, and of due reverence for his name and Attributes, which is only know<g ref="char:EOLhyphen"/>able to God, and therefore only puniſhable by him. Now the Law of God not only permit<g ref="char:EOLhyphen"/>ing men to ſwear by the name of God, but in caſes Requiring and Enjoining of it, tho' all the Jews and Phariſees themſelves owned that men ought to ſwear ſeriouſly, awfully &amp; reverently, by his name, and not vainly, preſumptuouſly and wantonly, according to the ſecond precept of the Sons of <hi>Noah</hi> concerning Bleſſing the name of the Lord, (which precepts the proſelyites of the Gates were bound to obſerve) yet their being no way to diſcern, when a man ſwore Reverent<g ref="char:EOLhyphen"/>ly or Irreverently (as there was to diſcover falſe Swearing and Blaſphemy) therefore no puniſh<g ref="char:EOLhyphen"/>ment was appointed for raſh Swearing as there was for the Latter.</p>
+            <p>But I ſay, whoſoever ſeriouſly conſiders the manner and method, the drift and deſign, the connection and coherence of our Saviour's diſ<g ref="char:EOLhyphen"/>courſe in that firſt Sermon of his on the mount, in which he ſhews the true extent, and indiſpen<g ref="char:EOLhyphen"/>ſible obligation of the Law, and reſcues it from the abuſes put upon it by the falſe Expoſitions which the Scribes, and Phariſees made of it, and their ungodly traditions; Will eaſily preceive,
+<pb n="48" facs="tcp:29627:23"/>that he doth not only condemn ſuch vain Swear<g ref="char:EOLhyphen"/>ing as ſinful, but dangerous; as rendring the perſon guilty obnoxious to the penalty annext to the Breach of the third commandment, <hi>(viz.)</hi> To the vengeance of God and eternal Damna<g ref="char:EOLhyphen"/>tion.</p>
+            <p>And Indeed I am very apt to believe that this is the great reaſon why there is a threatning ad<g ref="char:EOLhyphen"/>ded to that commandment, and no other, <hi>thou ſhalt not take,</hi> &amp;c. <hi>For the Lord will not hold him Guiltleſs,</hi> &amp;c.</p>
+            <p>As if he had ſaid, take heed to thy ſelf that thou do not vainly and irreverently make uſe of my name thou muſt indeed often uſe it, it muſt be frequently in thy mouth, and many times thou wilt have occaſion to ſwear by it, but for as much as men cannot certainly know when thou uſeſt it reverently, or irreverently, ſolemnly or vainly, I have not given the Magi<g ref="char:EOLhyphen"/>ſtrates or Judges any orders about puniſhing vain Swearers.</p>
+            <p>However know, that as I am jealous of mine honour and of the honour of my name: ſo I will ſeverely puniſh all ſuch as ſhall take it in vain; <hi>I will not hold him Guiltleſs,</hi> tho' men can<g ref="char:EOLhyphen"/>not condemn or puniſh them.</p>
+            <p>And here 'tis worthy our obſervation that theſe words, <hi>(the Lord will not hold him guiltleſs)</hi> are a <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, a figure very frequent in Scripture, and very elegant, and ſuch as Heightens the ſenſe, and augments the ſignification, where it is uſed, of which I could give many Inſtances.</p>
+            <pb n="49" facs="tcp:29627:23"/>
+            <p>I will only mention one, <hi>(viz.)</hi> That (<hi>Deut.</hi> 29.19, 20.) which I make choice of, becauſe 'tis a place moſt applicable to lewd and cuſtomary Swearers of all other ſinners. <hi>Leſt there ſhould be among you a root that beareth Gall and Worme<g ref="char:EOLhyphen"/>wood, and it come to paſs, when he heareth the words of this curſe, that he bleſs himſelf in his heart, ſaying I ſhall have Peace, tho' I walk in the Imagi<g ref="char:EOLhyphen"/>nation of my own heart; the Lord will not ſpare him.</hi>
+            </p>
+            <p>
+               <hi>The Lord will not ſpare him! (i. e.)</hi> God will certainly moſt fearfully puniſh him, he will power forth upon him the utmoſt of his wrath and indignation as it follows; <hi>But the Anger of the Lord, and his jealouſie ſhall ſmoak againſt that man, and all the curſes that are written in this Book ſhall ly upon him, and the Lord ſhall blot out his name from under Heaven, and the Lord ſhall ſepa<g ref="char:EOLhyphen"/>rate him unto evil out of all the Tribes of Iſrael, ac<g ref="char:EOLhyphen"/>cording to all the Curſes of the Covenant that are written in this Book of the Law.</hi>
+            </p>
+            <p>So here, when God ſaith, <hi>he will not hold him guiltleſs, that taketh his name in vain,</hi> the mean<g ref="char:EOLhyphen"/>ing is, that he will hold him highly guilty, &amp; that he will eſteem him one of the vileſt ſinners, of the profaneſt Wretches, and will be ſure to pu<g ref="char:EOLhyphen"/>niſh him with the greateſt and utmoſt ſeverity.</p>
+            <p>Which paſſage in <hi>Deuteronomy</hi> (I ſay) I made choice of to illuſtrate this matter by, not only becauſe theſe words [<hi>The Lord will not hold him guiltleſs,</hi> and theſe, <hi>The Lord will not ſpare</hi>] are the very ſame figure and Phraſe, of the very ſame Import and Signification.</p>
+            <pb n="50" facs="tcp:29627:24"/>
+            <p>But alſo (and that chiefly) becauſe the whole Character that is there given of a moſt vile and wicked man, of one who was arrived to the high<g ref="char:EOLhyphen"/>eſt pitch of wickedneſs, and who was hardned in his ſin and Impenitence, doth more exactly agree to one that is a cuſtomary Swearer, then to any other ſort of Sinners. For where ſhall we find a root that beareth Gall and Worm<g ref="char:EOLhyphen"/>wood, but in that heart out of which continual<g ref="char:EOLhyphen"/>ly proceed abominable Oaths and Curſes? Who is there that is a greater contemner of the Curſes which God hath denounced againſt obſtinate Sinners then the profane Swearer; Who more apt to ſay in his heart, I ſhall have peace, tho' he walk in the Imagination of his own wicked heart, than he? Who more ready to add drun<g ref="char:EOLhyphen"/>kenneſs to thirſt then ſuch an one, for tho' per<g ref="char:EOLhyphen"/>haps there have been many drunkards, who have not been cuſtomary Swearers, yet I believe there was ſeldom or never a common Swearer but he was a common drunkard too. And there<g ref="char:EOLhyphen"/>fore certainly of all ſuch we may ſay, <hi>that the Lord will not Spare them, but the Anger of the Lord, and his jealouſie ſhall ſmoak againſt them, and all the curſes and threatnings, that are written in the Book of God ſhall light upon them.</hi> And therefore we may well apply all thoſe paſſages in which Swearing is forbidden indefinitely, and where the perſons guilty are threatned, not only to perjur'd perſons, but to raſh and vain Swearers, as (<hi>Hoſea</hi> 4.2.) <hi>By Swearing, and Lying and Kil<g ref="char:EOLhyphen"/>ling, and Stealing, and committing Adultery, they
+<pb n="51" facs="tcp:29627:24"/>break out, and blood toucheth blood.</hi> In which place Swearing is not only joyned with the greateſt ſins, but placed as the Captain and Leader of them. And <hi>Jer.</hi> ſays, (<hi>Chap.</hi> 23.10.) <hi>becauſe of Swearing the Land Mourneth;</hi> and <hi>Zechariah</hi> ſays (<hi>Chap.</hi> 5.3.) <hi>That the Swearer ſhall be cut off by the Curſe</hi>
+            </p>
+            <p>
+               <hi>And the Son of Sirach ſaith</hi> (Eccleſ. 23.11.) <hi>that a man that uſeth much Swearing ſhall be filled with Iniquity, and the Plague ſhall never depart from his houſe, if he offend, his ſins ſhall be upon him; And if he acknowledg not his ſin, he maketh a double Offence, and if he Swear in vain, he ſhall not be Innocent, but his houſe ſhall be full of Calamities;</hi> and (<hi>v.</hi> 12.) he ſaith, <hi>there is a word that is Clothed with Death;</hi> God grant it be not found in the Heritage of <hi>Jacob,</hi> for all ſuch things ſhall be far from the Godly, and they ſhall not wallow in their ſins; By the word clothed with death, and which Godly men dread and abhor, he means intemperate Swearing, as is evident from what follows (<hi>v.</hi> 13.) <hi>uſe not thy mouth to intem<g ref="char:EOLhyphen"/>perate Swearing, for therein is the World of ſin.</hi>
+            </p>
+            <p>So that we may ſay of Swearing as the <hi>Pſal<g ref="char:EOLhyphen"/>miſt</hi> did of Curſing which is the neareſt of kin to it, for there are few Oaths (eſpecially ſuch as proceed from raſh Anger and paſſion) which may not be ſaid to be at leaſt virtually and im<g ref="char:EOLhyphen"/>plicitly Curſes likewiſe) <hi>viz.</hi> That it ſhall prove the greateſt plague and miſchief to the perſon himſelf that is guilty of it, (<hi>Pſal.</hi> 109.17.) <hi>As he loved Curſing ſo let it come unto him: As he de<g ref="char:EOLhyphen"/>lighted
+<pb n="52" facs="tcp:29627:25"/>not in Bleſſing ſo let it be far from him; As he clothed himſelf with Curſing like as with a Garment, ſo let it come into his Bowels like Water, and like Oyl into his Bones, let it be unto him as the Garment that Covereth him, and for a Girdle wherewith he is girded continually.</hi>
+            </p>
+            <p>For as God hath declar'd, that he is jealous of the honour of his name, <hi>and that he will not hold him guiltleſs that taketh it in vain i. e.</hi>) will look him as highly guilty, as a moſt vile and a<g ref="char:EOLhyphen"/>bominable Sinner; So he will not fail to puniſh him accordingly without ſincere repentance, and deep Humiliation For as he has revealed his Wrath from Heaven againſt all ſuch profaneneſs and Impiety; ſo the time will come when he will pour forth Indignation and Wrath, Tribu<g ref="char:EOLhyphen"/>lation, and Anguiſh upon all ſuch as are guilty of it. And tho' the Swearer may not draw down divine vengeance upon his head in this World, in which all things happen to all alike, and there is one Event to the righteous and to the wicked, to the good and to the ſinner, to him that Sweareth, and to him that feareth an Oath; as <hi>Solomon</hi> ſays, (<hi>Eccleſ.</hi> 9.2.) yet he ſhall not without great repentance eſcape that moſt Tremendous curſe which God will pronounce againſt all impenitent ſinners, <hi>Go ye Curſed into Everlaſting Fire, prepared for the Devil and his Angels;</hi> Where they may perhaps curſe and ſwear in the Anguiſh of their Souls, and bitter<g ref="char:EOLhyphen"/>neſs of their Spirits, but it ſhall not in the leaſt Mitigate or Aſſwage their Torments.</p>
+            <div type="part">
+               <pb n="53" facs="tcp:29627:25"/>
+               <head>The Application.</head>
+               <p>Having thus ſhown unto you the ſinfulneſs and danger of this ſin of vain and raſh Swear<g ref="char:EOLhyphen"/>ing, I ſhall preſs and enforce the Apoſtle's De<g ref="char:EOLhyphen"/>hortation by way of Application.</p>
+               <p>
+                  <hi>Above all things, my Brethren ſwear not.</hi> Among all the gifts that God hath beſtowed upon Men, there is hardly one more uſeful or wonderful than Speech, by which Men communicate their minds to each other and diſcover the greateſt ſe<g ref="char:EOLhyphen"/>crets; and without which Mankind would have no more ſociety or commerce than the Beaſts of the Earth, or the Fowls of the Air.</p>
+               <p>The gift of Speech is a moſt divine thing, and full of wonder, and therefore ought to be uſed for the praiſe and honour of him that made it; and 'tis the height of folly and ingrati<g ref="char:EOLhyphen"/>tude to diſhonour and abuſe him by it.</p>
+               <p>The Tongue was deſigned to be an Inſtru<g ref="char:EOLhyphen"/>ment to ſet forth and celebrate the praiſe and glory of God; <hi>Therefore,</hi> ſays <hi>David</hi> (<hi>Pſal.</hi> 34.11.) <hi>I will bleſs the Lord at all times; his praiſe ſhall be continually in my mouth;</hi> and (<hi>Pſal.</hi> 51.15.) <hi>O Lord open thou my lips, and my mouth ſhall ſhow forth thy praiſe;</hi> and (<hi>Pſal.</hi> 71.8.) <hi>Let my mouth be filled with thy praiſe and with thy honour all the day long.</hi> And therefore it muſt needs be a wicked and heinous thing for Men to diſhonour God by that moſt uſeful Inſtrument the Tongue, which was created on purpoſe to ſet forth and celebrate his honour. Thus St. <hi>James</hi> having aſſerted (<hi>cap.</hi> 3.6.) <hi>That the Tongue (i. e.)</hi> a wicked, looſe,
+<pb n="54" facs="tcp:29627:26"/>filthy, unbridled Tongue <hi>is a fire, a world of ini<g ref="char:EOLhyphen"/>quity, that defileth the whole body,</hi> and that <hi>'tis an unruly evil, full of deadly poiſon;</hi> gives this reaſon for it, that it is oftentimes made an Inſtrument of curſing, when it was deſigned only for bleſ<g ref="char:EOLhyphen"/>ſing; (<hi>v.</hi> 9.) <hi>therewithal we bleſs God, even the Fa<g ref="char:EOLhyphen"/>ther, and therewith curſe we men, which are made after the ſimilitude of God: out of the ſame mouth proceedeth bleſſing and curſing; my Brethren, theſe things ought not to be ſo.</hi> As if he had ſaid, Is it not a moſt abſurd and unreaſonable thing, that things ſo oppoſite and contrary ſhould proceed out of the ſame mouth? Do you ever pray to God, do you praiſe him, and give thanks to him; and do you not thereby account that you honour his Name, and dare you with the ſame mouth to diſhonour and blaſpheme it with wanton Oaths, and ſpiteful Curſes?</p>
+               <p>Again, do you accuſtom your ſelves to ſay the Lord's Prayer? which is not only a form and pattern to compoſe all others by, but it is in its ſelf the beſt, and moſt excellent of all prayers. Do you uſe it reverently, ſeriouſly and devoutly; and did you never obſerve and con<g ref="char:EOLhyphen"/>ſider this one thing, that the very firſt Petition of all is this, <hi>Hallowed be thy Name?</hi> And do you pray there that the Name of God may be honoured, ſanctified and reverenced by your ſelves and others; that you may have an awful and reverent eſteem of it, and regard to it; and dare you not only to take this glorious and fear<g ref="char:EOLhyphen"/>ful Name in vain, but profane it by unhallowed
+<pb n="55" facs="tcp:29627:26"/>Oaths, and that with the very ſame mouth by which you pray it may be ſanctified and reve<g ref="char:EOLhyphen"/>renced? This is a great wickedneſs indeed, and ought to be looked upon by you that are Chri<g ref="char:EOLhyphen"/>ſtians as ſtrange and monſtrous, as it would be for a Fountain at the ſame place to ſend forth ſweet Water and bitter, (<hi>v.</hi> 11.)</p>
+               <p>This moſt groſs and abſurd abuſe of the Tongue doth therefore diſcover the filthineſs and impiety of the heart. Whoever truly loves or fears God; whoever doth accuſtom himſelf ſincerely to pray to him, or to praiſe him, will ſeldom (I had almoſt ſaid never) abuſe his Name by raſh Swearing. He that is accuſtomed to uſe it reverently, will never abuſe it preſumptuouſ<g ref="char:EOLhyphen"/>ly or irreverently. He that hath the fear of God in his heart, will ever take heed to his ways that he offend not by his Tongue, (<hi>Pſal.</hi> 39.1.) For 'tis certain no man doth leſs remem<g ref="char:EOLhyphen"/>ber, or ſeldomer think upon God, than he that uſeth his Name moſt by Oaths and Curſes. Our Saviour tells us, (<hi>Mat.</hi> 12.34.) <hi>That out of the abundance of the heart the mouth ſpeaketh. A good man out of the good treaſure of his heart bring<g ref="char:EOLhyphen"/>eth forth good things, and an evil man out of the evil treaſure of his heart bringeth forth evil things.</hi> If the heart of a man be piouſly and religiouſly diſpoſed, it will cauſe him to ſet God always be<g ref="char:EOLhyphen"/>fore him, and to have awful and reverent thoughts of him; it will make him very cau<g ref="char:EOLhyphen"/>tious and tender in every thing in which his honour is concern'd; he will be ſo far from
+<pb n="56" facs="tcp:29627:27"/>being a common Swearer, that he will dread the very thoughts of it: Whereas if a man's heart is impiouſly inclined, if it want the fear and love of God, God will not be in all his thoughts, tho' his name be frequently in his mouth; as his mind is atheiſtical and profane, ſo will his words and diſcourſe be; he will make nothing to curſe or ſwear by the holy and dreadful Name of God; yea, he will hardly know or perceive when he is guilty of it. Yea, I k<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ow no one ſin in the World, that is ſo great and ſo certain a ſign of an impious and irreligious heart, as cuſtomary Swearing; 'tis ſo utterly inconſiſtent with Piety, that thoſe that are guilty of it, ſeem never to have any the leaſt impreſſions of it: They are all of them, as St. <hi>Paul</hi> ſaid of <hi>Simon Magus,</hi> (<hi>Acts</hi> 8.23.) <hi>in the gall of bitterneſs and bond of iniquity,</hi> it is a moſt infallible ſign of hardneſs of heart, and ſeared<g ref="char:EOLhyphen"/>neſs of conſcience. And where this wicked and ungodly cuſtom prevails, it will draw Men into many other ſins, by hardning of their hearts, and doth very often make them become guilty of that ſin, which all Mankind, (who pretend to honeſty, honour or conſcience) confeſs to be moſt vile, heinous and abominable; I mean the ſin of Perjury.</p>
+               <p>There are many men that pride themſelves in Swearing, as a Gentile Accompliſhment, who will be ready to ſtab any man that ſhall give them the Lye; and thoſe that think Swear<g ref="char:EOLhyphen"/>ing a Grace and Ornament of ſpeech, acknow<g ref="char:EOLhyphen"/>ledge
+<pb n="57" facs="tcp:29627:27"/>it a ſhameful thing to be, or to be count<g ref="char:EOLhyphen"/>ed a Lyar. And yet there is no doubt, but that the moſt common Swearers are generally the greateſt Lyars; &amp; 'tis no wonder, for thoſe cannot pretend to forbear the latter out of conſcience, who make no conſcience to be guilty of the for<g ref="char:EOLhyphen"/>mer. And if Oaths do flow from a man's mouth ſuddenly, and inſenſibly (as they always do, where Swearing is become habitual and cu<g ref="char:EOLhyphen"/>ſtomary) why may they not Lye after the ſame manner? and then they become guilty of Per<g ref="char:EOLhyphen"/>jury before they are aware of it; for what is Perjury, but a Lye confirm'd and bound with an Oath? And if we ſhould appeal to the Conſcience of a common Swearer, whether he hath not often done thus, <hi>(i.e.)</hi> ſworn to what is falſe, as well as to what is true, in common diſcourſe, I believe he cannot deny it, if he ſeriouſly conſider it: For 'tis certain that ſuch men do often in their paſſion oblige themſelves by Oaths, ſwearing they will do ſuch things, as they do not in the leaſt intend; or if they did intend them, when they came to them<g ref="char:EOLhyphen"/>ſelves they were quite of another mind, and forbore to do them. And tho' ſome men have very exactly kept, and punctually perform'd the things, that they have haſtily and unadvi<g ref="char:EOLhyphen"/>ſedly ſworn to, yet they have ſeen great cauſe to be troubled, yea, have been much perplexed, that they have thus fooliſhly and haſtily in<g ref="char:EOLhyphen"/>ſnared and intangled themſelves by ſuch Oaths.</p>
+               <p>Thus, when the Princes and Heads of the
+<pb n="58" facs="tcp:29627:28"/>Iſraelites made a League with the Gibeonites, without asking Counſel of God; tho' they doubtleſs ſinned in ſo doing, and tho' they did it upon a falſe Information, and tho' all the Congregation murmured at it, (<hi>Joſh.</hi> 9.18.) yet having confirm'd that League with the Oath of God, they durſt not break it, though doubtleſs they were very much troubled, and diſpleaſed with themſelves for making it.</p>
+               <p>So when <hi>Jepthah</hi> went out to war againſt the Ammonites, he vowed a Vow, That if God would give him Victory, he would offer to the Lord whatever ſhould come forth of his houſe for a Burnt-Offering, (<hi>Judg</hi> 11.31.)</p>
+               <p>It is much diſputed among Learned men what the matter of <hi>Jepthah</hi>'s vow was, and whether he did really offer up his Daughter in Sacrifice, or only Conſecrated her to God, and confined her to perpetual virginity; And whe<g ref="char:EOLhyphen"/>ther, if he Sacrificed her, he did not greatly ſin in ſo doing, and whether it had not been better, and much more acceptable to God, if he had broken his vow, then thus to fulfil it.</p>
+               <p>But this all are agreed in, that tho' he was a good man and his vow proceeded from Zeal and Piety, yet it was raſh and Inconſiderate: and tho' God accepted the Pious, and good in<g ref="char:EOLhyphen"/>tention of his heart, yet his Wiſdom ſaw fit to puniſh the raſhneſs and Indiſcretion of his vow; for it brought him into a very great ſtreight as is apparent from (<hi>v.</hi> 38.) For he rent his cloths, and ſaid, <hi>Alas my Daughter, thou haſt brought me very
+<pb n="59" facs="tcp:29627:28"/>Low, and thou art one of them that trouble me, for I have opened my mouth to the Lord, and I cannot go back.</hi> I ſay, God probably puniſh'd the raſh<g ref="char:EOLhyphen"/>neſs and Inconſiderateneſs of that we might might be a warning to others, that we might not be raſh with our Mouths nor haſty with our Lips to utter any thing before the Lord; As <hi>Solomon</hi> Adviſeth (<hi>Eccleſ.</hi> 5.2.) for as he ſays, (<hi>Pro.</hi> 20.25.) <hi>It is a ſnare to a man after vows to make inquiry, (i. e.)</hi> for a man raſhly and incon<g ref="char:EOLhyphen"/>ſiderately to ſwear he will do ſuch or ſuch a thing, and afterward to conſider whether it be lawful, or unlawful; Convenient or Incon<g ref="char:EOLhyphen"/>venient to do as he hath ſworn; or to ſwear he will not do ſuch a thing, and afterward to conſider whether it be not expedient to do it.</p>
+               <p>We have a famous example of this in <hi>Herod</hi> (<hi>Mat.</hi> 14.6.) where its' ſaid, <hi>That the Daughter of Herodias Dancing before him on his birth day, and pleaſing him, he promiſed with an Oath, that he would give her whatſoever ſhe ſhould aſk, who being before Inſtructed of her mother, deſired him to give her the head of John the Baptiſt in a Char<g ref="char:EOLhyphen"/>ger; which requeſt of hers when the King heard, it's ſaid (v. 9.) that he was ſorry, he repented him of his raſh and unadviſed Oath, nevertheleſs for his Oath's ſake, and them that ſat with him at meat, he commanded it to be given her.</hi>
+               </p>
+               <p>St. <hi>Mark</hi> who relates this ſtory moſt largely tells us (<hi>Chap.</hi> 6.26. that he was [<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>] Exceeding ſorry, he was mightily troubled, that ſhe ſhould ask ſuch a thing, as he never
+<pb n="60" facs="tcp:29627:29"/>thought of, and which, had he foreſeen, he would certainly have excepted out of his large, and extravagant promiſe. Of this his ſorrow ſeveral motives have been Aſſigned: Some ſup<g ref="char:EOLhyphen"/>poſe that <hi>Herod</hi> having caſt <hi>John</hi> into priſon, would have been glad enough to hear of his death, &amp; might be willing enough to put him to death at another time, but he was very loath to do it then, becauſe it was his Birth day, and a great Feſtival, and it was the cuſtom of the <hi>Ro<g ref="char:EOLhyphen"/>mans</hi> never to ſhed Blood at ſuch a time; In which they beſtowed Favours and Largeſſes, and uſed to releaſe Criminals, who were not guilty of Capital offences; Yea and ſome that were.</p>
+               <p>But the great reaſon mentioned by the Evan<g ref="char:EOLhyphen"/>geliſts why he did not put <hi>John</hi> to death as well as impriſon him, was becauſe he feared the mul<g ref="char:EOLhyphen"/>titude, becauſe they accounted him as a Prophet; He was afraid of ſome Popular Tumult, or In<g ref="char:EOLhyphen"/>ſurrection (<hi>Mat.</hi> 14.5. <hi>Nevertheleſs for his Oath's ſake, and of them that ſat at Meat with him, he cauſed it to be done.</hi>
+               </p>
+               <p>Whether <hi>Herod</hi> made any conſcience of an Oath or not, we know not; 'tis certain he made no conſcience of the greateſt ſins in other caſes; he lived in Adultery with his Brother <hi>Philips</hi> Wife, whom he procured to be baniſhed (as ſome write) that he might the more freely enjoy her.</p>
+               <p>And doubtleſs, had it not been for fear of the multitude, he would no more have ſcru<g ref="char:EOLhyphen"/>pled the Murthering <hi>John</hi> the Baptiſt, then his Father did to Murther the holy Innocents.</p>
+               <pb n="61" facs="tcp:29627:29"/>
+               <p>But many who indeed and in truth make little or no conſcience of violating an Oath, <hi>Yet will keep it,</hi> when they have by it bound them<g ref="char:EOLhyphen"/>ſelves to any evil thing, only to maintain their honour and Reputation.</p>
+               <p>And this was plainly <hi>Herod</hi>'s caſe, he had pro<g ref="char:EOLhyphen"/>miſed to give the Daughter of <hi>Herodias</hi> what<g ref="char:EOLhyphen"/>ever ſhe ſhould ask even to the Half of his King<g ref="char:EOLhyphen"/>dom; And this promiſe he had ſolemnly con<g ref="char:EOLhyphen"/>firmed by Oath in preſence of his Lords, high Captains, and Chief Eſtates of <hi>Galilee;</hi> And therefore that he might not ſeem guilty of any Levity, Temerity, or Inconſtancy, by being worſe then his word, he was reſolved that he would do as he had ſworn, what ever became of it.</p>
+               <p>They muſt be very fooliſh and ignorant, who think that an Oath doth oblige them to do any wicked thing, and yet 'tis a common thing for ſome who make light of violating their Oaths, when it obliges them to do good, to think them ſelves bound in honour to keep them when they have Sworn to do that which is evil, which is a great Error. But theſe Inſtances ſufficiently ſhow into what ſtreight perplexities, and troubles, men bring themſelves by vain, raſh and inconſiderate Swearing.</p>
+               <p>Thus <hi>Saul</hi> would needs put <hi>Jonathan</hi> to death in purſuance of his raſh Oath, had not the peo<g ref="char:EOLhyphen"/>ple hindred him from it, (1 <hi>Sam.</hi> 14.44.)</p>
+               <p>Again; Conſider how great a ſcandal and reproach ſuch as are cuſtomary Swearers do bring upon the Chriſtian Religion in general,
+<pb n="62" facs="tcp:29627:30"/>and upon that Church or Society of Chriſtians, whereof they profeſs and declare themſelves Members in particular; which conſideration it ſelf ought to work upon all that own them<g ref="char:EOLhyphen"/>ſelves Chriſtians, and doth always ſway very much wi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>h ſober and ſerious men.</p>
+               <p>If common Swearing were only a fooliſh and vain cuſtom that ſome have gotten, yet if it gives offence, we ought to avoid it; how much more, when there is nothing more offenſive and odious to good men? St. <hi>Paul</hi> exhorts us (<hi>Phil.</hi> 1.27.) that our converſation ſhould be ſuch as becometh the Goſpel of Chriſt, that thereby we may invite and win others to that Religion which we our ſelves profeſs, by rendring it lovely and amiable in the eyes of all men; and (<hi>chap.</hi> 4.8.) that we ſhould not only mind, and practiſe thoſe things that are honeſt, juſt and pure, but ſuch as are lovely and of good report. We ought to deny our ſelves, and abridge our ſelves of our liberty, by avoiding even ſuch things as are lawful, when they may ſcandalize and offend ſuch as are weak; how much more ought we to avoid ſuch things as are apparently wicked, as all Chriſtians acknowledge vain Swearing to be, when by it we may encourage wicked men and grieve and diſcourage ſuch as are ſober, pious and religious. You know that the Scripture makes this one of the greateſt ag<g ref="char:EOLhyphen"/>gravations of ſin <hi>(viz.)</hi> the fatal conſequences and dangerous effects that it hath upon others by encouraging them in wickedneſs, or diſcou<g ref="char:EOLhyphen"/>raging
+<pb n="63" facs="tcp:29627:30"/>them from Piety, and ſuch effects hath vain Swearing uſually; for, ſays St. <hi>Paul,</hi> 1 <hi>Cor.</hi> 15.33. <hi>Be not deceived, evil communications corrupt good manners;</hi> and <hi>Eph.</hi> 4.29. <hi>Let no corrupt com<g ref="char:EOLhyphen"/>munication proceed out of your mouth, but that which is good to the uſe of edifying, that it may adminiſter grace to the hearers:</hi> But what grace or edification can there be in that which is too bad in its ſelf, but worſe in its conſequences; for as it grieves and diſpleaſeth all pious and ſober men; ſo it har<g ref="char:EOLhyphen"/>dens and emboldens the wicked and profane, which is a great aggravation of it. The ſins of <hi>Ely</hi>'s Sons were very great and heinous in them<g ref="char:EOLhyphen"/>ſelves; but that which made them much worſe, was that they brought ſuch contempt upon Religion, and made the people out of love with it, (1 <hi>Sam.</hi> 2.17.) <hi>Wherefore the ſin of the young men was very great before the Lord, for men ab<g ref="char:EOLhyphen"/>horred the Offerings of the Lord.</hi> This was the great aggravation of <hi>David</hi>'s ſin, that it opened the mouths of wicked men, and emboldened them to ſpeak evil of God; and reproachfully of his ways, (2 <hi>Sam.</hi> 12.14.) <hi>Howbeit, becauſe by this deed thou haſt given great occaſion to the Ene<g ref="char:EOLhyphen"/>mies of God to blaſpheme, the Child that is born un<g ref="char:EOLhyphen"/>to thee ſhall ſurely die.</hi>
+               </p>
+               <p>It was a wonderful and unaccountable thing that the Prophets of <hi>Jeruſalem,</hi> who pretended that they were God's Prophets, ſent by him to teach men their duty, and to reprove them for their ſins, that (I ſay) ſuch men ſhould be guilty of ſuch enormous Vices as are charged
+<pb n="64" facs="tcp:29627:31"/>upon them. But that which made their wicked<g ref="char:EOLhyphen"/>neſs much greater (if poſſible was that it hard<g ref="char:EOLhyphen"/>ned wicked men in their ſins, (<hi>Jer.</hi> 23.14.) <hi>I have ſeen in the Prophets of</hi> Jeruſalem <hi>an hor<g ref="char:EOLhyphen"/>rible thing,</hi> &amp;c. <hi>They commit Adultery, and walk in Lyes; they ſtrengthen alſo the hands of evil doers, that none doth return from his wickedneſs.</hi> And ſurely thus it is ſtill; how will lewd and profane perſons, hug themſelves; how glad would they be if they knew a Miniſter to be a common Swearer; how little will it cauſe them to make of that ſin? And as a common Swea<g ref="char:EOLhyphen"/>rer doth mightily encourage profane perſons in their wickedneſs, eſpecially if he be a perſon of any authority, credit and reputation in the World; ſo he will diſcourage many plain igno<g ref="char:EOLhyphen"/>rant well meaning men from embracing that Religion which he profeſſeth. For 'tis a moſt evident and apparent truth, that nothing hath made more Diſſenters, or kept off ſuch people from the Communion of the Church of <hi>Eng<g ref="char:EOLhyphen"/>land,</hi> than the Debauchery, and Profaneneſs, and eſpecially the intemperate Swearing and Curſing of ſome who pretend to be the moſt zealous Patrons and Defenders of it. For the common people judge of Religion according to the opinion they have of the Piety and Honeſty of its Profeſſors; and therefore no wonder if they cannot be perſuaded to think well of that way for which ſuch lewd Huffers, &amp; vile Swea<g ref="char:EOLhyphen"/>rers appear ſo zealouſly concerned. What ſhall we ſay in this caſe: ſhall we tell them that the
+<pb n="65" facs="tcp:29627:31"/>Doctrine of the Church of <hi>England</hi> is ſound, its Worſhip pure, and that no Church in the World doth more condemn this ſin than ſhe doth? will this think you) ſatisfie them? No ſurely; as long as they ſee her Sons, or rather thoſe that impudently call themſelves ſo, guilty of ſuch things: Or ſhall we recriminate, and ſay, that the Diſſenters are guilty of as great or greater ſins than this; that tho' they will not ſwear, they will lye, and diſſemble, and couſen, and cheat; that they are guilty of Schiſm, Faction, and Rebellion? It will be replied as to the firſt, that Lying is a ſin which may be con<g ref="char:EOLhyphen"/>cealed; Hypocriſie is a cover to its ſelf, and 'tis unjuſt to charge either of them upon a perſon when we cannot evidently prove it: As to the latter, they will deny the charge, and plead not guilty. Whereas Swearing is ſo evident and no<g ref="char:EOLhyphen"/>torious, as to matter of fact, as not to be denied, ſo peremptorily forbidden, as not to be juſti<g ref="char:EOLhyphen"/>fied, or excuſed. Shall we alledge (as the truth is) that in all Ages and Nations, all the lewd and profane, the vulgar and common people have always complied with that which is up<g ref="char:EOLhyphen"/>permoſt, and followed that Religion which is countenanced by Law, and that this is the caſe here; yet this will not take off the ſcandal which lewd Swearers have brought upon that Church, which is, as to its Conſtitution, the beſt Church in the World. If any therefore that pretend a kindneſs to this Church are guilty of this great ſin, I would deſire them utterly to forſake and
+<pb n="66" facs="tcp:29627:32"/>renounce the former, unleſs they will leave and forbear the latter; leſt they involve themſelves in the ſame guilt with thoſe mentioned (2 <hi>Pet.</hi> 2.2.) who by their corrupt principles, and wick<g ref="char:EOLhyphen"/>ed lives cauſed the way of Truth to be evil ſpo<g ref="char:EOLhyphen"/>ken of. If all this will not do, yet conſider that if you are Chriſtians, you ought to account no ſin ſmall, but to avoid the very appearance of evil; how much more ought you to dread that which God commands you above all things to forbear and avoid?</p>
+               <p>I will now conclude the whole with a few Directions how we may avoid this fooliſh and wicked ſin of Swearing.</p>
+               <p n="1">1. Let us earneſtly endeavour to beget, and keep up in our hearts awful and reverent thoughts of God; for the fear of God is clean, as the Pſalmiſt ſays, (<hi>Pſal.</hi> 9.9.) it will cleanſe and purifie the heart from all wicked thoughts and deſires, and the mouth from all manner of evil ſpeaking. If a man ſtand in a we of any man, he will not let his tongue looſe in his preſence, or dare to utter that which is unmannerly or un<g ref="char:EOLhyphen"/>decent, leſt he offend him. I have read of ſome young Gentlemen, who were ſo accuſtomed to Swearing, that they ſcarce knew how to ſpea<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> without an Oath; who ſitting at Table with an antient grave Miniſter, it was obſerved tha<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> they forbore to ſwear all the time he was there and they afterward confeſt, that they had ſuc<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> an awe upon them, that they had not boldne<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> enough to ſwear in his preſence. And if the fea<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <pb n="67" facs="tcp:29627:32"/>of Men can lay ſuch a reſtraint, how much more would the fear of God keep us from whatever is offenſive &amp; diſpleaſing to him, as he hath plainly declared Swearing to be. Did men often and ſeri<g ref="char:EOLhyphen"/>ouſly think upon God, that he is always preſent with them, and that his Eye is continually over them, that there is not a word in their mouth, nor a thought in their heart, but he knoweth it altogether; that he is a juſt and holy God, of purer Eyes than to behold iniquity, and who will by no means clear the guilty; and who will hold all ſuch as highly guilty who take his name in vain. I ſay did men frequently and ſeriouſly think upon, and conſider theſe things, it would be in a manner Impoſſible they ſhould be once guilty of raſh and vain Swearing, much leſs that they ſhould ſuffer it to become cuſtom<g ref="char:EOLhyphen"/>ary, and habitual. If therefore we come into the company of looſe and profane Swearers, we may ſay as <hi>Abraham</hi> did of <hi>Abimelech</hi>'s Court at <hi>Gerar, (Gen.</hi> 20.11.) <hi>Surely the fear of the Lord is not in this place</hi> But would we whenever we menti<g ref="char:EOLhyphen"/>on the Name of God our ſelves or hear it menti<g ref="char:EOLhyphen"/>oned by others, raiſe in our hearts awful and re<g ref="char:EOLhyphen"/>verent thoughts of him, it would be an Excel<g ref="char:EOLhyphen"/>lent preſervative againſt this ſin.</p>
+               <p n="2">2. Let us be watchful over our ſelves, Let us keep our hearts with all diligence, <hi>and take heed to our ways, that we offend not with our Lips, (Pſal.</hi> 39.1.) The Government of the Tongue, doth very much depend upon the government of the heart; if therefore we would bridle our
+<pb n="68" facs="tcp:29627:33"/>Tongues, we muſt keep a ſtrict watch, and guard upon our thoughts.</p>
+               <p>Therefore ſays <hi>David, (Pſal.</hi> 17.3.) <hi>Thou haſt proved my heart, thou haſt viſited me in the Night, thou haſt tryed me, and ſhalt find nothing, I am purpoſed that my mouth ſhall not tranſgreſs.</hi> If men were ſincerely deſireous to leave this ſin, it would make them exceeding careful and watch<g ref="char:EOLhyphen"/>ful over themſelves, for this is ever the neceſſary effect of ſincere purpoſes and ſerious Reſolutions.</p>
+               <p>The more men have accuſtomed themſelves to this ſin, the greater care and watchfulneſs is neceſſary to keep them from it, becauſe uſe and cuſtom makes Oaths flow forth ſuddenly, and undiſcernedly, as to the Swearers themſelves.</p>
+               <p>There are two ſorts of ſins, that eaſily get Do<g ref="char:EOLhyphen"/>minion over a man, they are difficult to be a<g ref="char:EOLhyphen"/>voided, but much more difficult to be mortified, Conquered and Subdued; <hi>Viz.</hi> The ſins to which a man's temper, Complexion and Conſtitution do naturally incline him; and the ſins to which he hath a long time uſed and accuſtomed him<g ref="char:EOLhyphen"/>ſelf; and theſe latter are almoſt as ſtrong and powerful as the former, and therefore we ſay Uſe and Cuſtom are a ſecond nature.</p>
+               <p>Theſe are the ſins that do moſt eaſily beſet men, and therefore they ought to be moſt care<g ref="char:EOLhyphen"/>ful, and watchful againſt them; For 'tis true of all habits whether good or bad, that they are difficult to be removed; But as uſe doth in<g ref="char:EOLhyphen"/>creaſe, and confirm them, ſo nothing but diſuſe can deſtroy, or weaken them. And this I ſay,
+<pb n="69" facs="tcp:29627:33"/>that the diſuſe of thoſe things to which men have been long accuſtomed, is no eaſy matter, but requires great Caution and Circumſpection, eſpecially if they be wicked, and vicious; For as ſuch are eaſieſt to be acquired, ſo are they al<g ref="char:EOLhyphen"/>ways hardeſt to be left. For vicious cuſtomes (ſuch as this is are like weeds which ſpring and grow of themſelves, and need no care or in<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>u<g ref="char:EOLhyphen"/>ſtry to look after them, but require much La<g ref="char:EOLhyphen"/>bour and Pains, to extirpate and root them out.</p>
+               <p>Thus thoſe, whoſe conſciences did at firſt check them, when they uſed but any Solemn Aſſe<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>ration in light and trivial matters, cannot only diſpence with downright Swearing when they have been uſed to it, but they find it difficult to avoid it, if they would; The ſin therefore be<g ref="char:EOLhyphen"/>ing ſo heinous to be continued in, and the cuſtom of it making it ſo hard to be left, every one (but eſpecially ſuch as are addicted to it) ought the more diligently and carefully to watch over themſelves that they may avoid it.</p>
+               <p n="3">3. Be careful to avoid all thoſe things, which may be occaſions of or temptations to this ſin.</p>
+               <p>It is moſt certain, that whoſoever doth ſin<g ref="char:EOLhyphen"/>cerely deſire to keep himſelf from any ſin, doth moſt carefully endeavour to avoid all tempta<g ref="char:EOLhyphen"/>tions to it; And 'tis a ſure ſign that ſuch ſins have a ſtrong and powerful intereſt in the heart of a man the occaſions of which are not dread<g ref="char:EOLhyphen"/>ed and avoided. I confeſs that this direction by it's ſelf, will be of little uſe, to cuſtomary Swearers, who are frequently guilty of that ſin
+<pb n="70" facs="tcp:29627:34"/>without any viſible Temptation, or Occaſion.</p>
+               <p>But there are many others, who are not ar<g ref="char:EOLhyphen"/>rived to this pitch of wickedneſs, to that hard<g ref="char:EOLhyphen"/>neſs of heart and ſearedneſs of conſcience, as to mingle their common diſcourſe with Oaths (for ſuch are the very dregs and ſcumm of Sinners) w<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o yet will pour out Oaths very plentifully at certain times and ſeaſons, and upon ſome t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rtain occaſions: Now the occaſions and Temp<g ref="char:EOLhyphen"/>tations that draw ſuch men into this ſin are <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſpecially theſe three, Drink, Paſſion, and Lewd and profane company: As to the firſt, There are many that ſeldom, or never ſwear when they are ſober, that make nothing of it, when they are heated and heightned in Liquor. We uſual<g ref="char:EOLhyphen"/>ly ſay, when the Wine is in the Wit is out; Certainly never is the folly or impiety of the heart ſo manifeſtly diſcovered by the Idleneſs, Wantonneſs, and Extravagancy of the Tongue, as when a man is Intoxicated with Liquor. Thoſe that at other times have ſome ſenſe of God and Religion; when they begin to be Drunk, caſt off all fear of him and Reverence towards him. <hi>Leſt I be full</hi> (ſays <hi>Agur) and deny thee, and ſay who is the Lord? (Pro.</hi> 30.9.) And therefore thoſe that would avoid the ſin of Swearing muſt avoid Intemperance.</p>
+               <p>I have ſhown you how thoſe that are addicted to this ſin ought to be watchful over themſelves, but ſo can no one be, that is not ſober, he that is drunk is more fit to be in bed, then to ſtand upon the guard. And therefore we find theſe
+<pb n="71" facs="tcp:29627:34"/>two, ſobriety, and watchfulneſs, always in Conjunction (1 <hi>Pet.</hi> 4.7.) <hi>Be ſober and watch unto Prayer;</hi> and <hi>Chap.</hi> 5.8.) <hi>Be ſober, be vigilant, becauſe your Adverſary the Devil, as a Roaring Lion, goeth about ſeeking whom he may devour.</hi>
+               </p>
+               <p>And indeed as there is no queſtion, but the Devil by his private Suggeſtions and Impulſes, is a great promoter of this ſin of Swearing; So he never fails to provoke thoſe to it in their drink, who ſeldom or never are guilty of it, when they are ſober.</p>
+               <p>Again many men are guilty of it when they are angry and in a paſſion, who ſeldom ſwear at other times: For anger drowns reaſon, and ſilences Religion. No doubt but <hi>Jezebel</hi> was in a grievous rage when ſhe ſent this meſſage, to <hi>Elijah,</hi> attended with an Oath (1 <hi>Kin.</hi> 19.2.) <hi>So let the Gods do to me, and more alſo, if I make not thy Life like one of them (i. e.)</hi> of the Prophets of Baal) <hi>by to morrow this time.</hi>
+               </p>
+               <p>It's an excellent thing for a man to be able to bridle his paſſion, and reſtrain his Anger. <hi>Solomon</hi> tells us (<hi>Pro.</hi> 14.29.) <hi>He that is ſlow to anger is of great underſtanding, but he that is haſty of Spirit exalteth folly,</hi> and (<hi>Chap.</hi> 16.32. <hi>He that is ſlow to Anger is better then the mighty, and he that ruleth his Spirit, then he that taketh a City.</hi>
+               </p>
+               <p>Now among many other great Advantages that a man of temper and moderation hath, this is none of the leaſt, that he is not ſo apt to diſco<g ref="char:EOLhyphen"/>ver the folly and wickedneſs of his heart by the virulency and raſhneſs of his Tongue, as thoſe that are haſty and Paſſionate are.</p>
+               <pb n="72" facs="tcp:29627:35"/>
+               <p>St. <hi>Paul</hi> exhorts us (<hi>Epheſ.</hi> 4.6. to be angry and ſin not, which words imply 'tis a very difficult thing for a man to avoid thoſe ſins in his Anger, to which he is powerfully tempted, and how hard 'tis for a man, that is but in the leaſt addicted to the ſin of Swearing to forbear it in his Anger, Experience doth too often ſhow.</p>
+               <p>And he adds, let not the Sun god own upon your wrath, <hi>neither give place to the Devil.</hi>
+               </p>
+               <p>Which is a plain intimation that Satan hath a great advantage over a man that is wrathful, he hath no fitter ſeaſon to tempt a man, then when he is ſo, certainly he that is Addicted to Swear<g ref="char:EOLhyphen"/>ing is never more powerfully tempted to it then when he is thorowly Angry.</p>
+               <p>It's ſaid (<hi>Luke</hi> 11.53. <hi>That when our Saviour had pronounced ſeveral woes againſt the Scribes and Phariſees, they thereupon began to urge him vehe<g ref="char:EOLhyphen"/>mently, and to provoke him to ſpeak of many things, laying waite for him, and ſeeking to catch ſome<g ref="char:EOLhyphen"/>thing out of his mouth, that they might accuſe him.</hi>
+               </p>
+               <p>They thought that he was warm with zeal, and paſſion; And they hoped, that by provoke<g ref="char:EOLhyphen"/>ing and exaſperateing of him they might cauſe him to ſpeak ſuch things as might give them matter of Accuſation, and that they might in<g ref="char:EOLhyphen"/>trap and intangle him in his Diſcourſe.</p>
+               <p>What advantage they thought they had a<g ref="char:EOLhyphen"/>gainſt Chriſt, the ſame Satan really hath up<g ref="char:EOLhyphen"/>on moſt men when they are angry, he takes that time to tempt them to ſuch things as at other times he deſpaireth of perſwading them
+<pb n="73" facs="tcp:29627:35"/>to. And that he hath (at ſuch times eſpecially) a fit opportunity to provoke thoſe that are in the leaſt given to Swearing to be guilty of that ſin, is evident from this, that they alleadge their being in a paſſion to excuſe, or at leaſt to extenuate their being guilty of it.</p>
+               <p>Again, as for ſuch as are very little or nothing Addicted to this ſin and would avoid it let them carefully avoid lewd and debauched company <hi>(i. e.)</hi> the company and ſociety of ſuch as cuſtom<g ref="char:EOLhyphen"/>arily uſe it. 'Tis a common and uſual thing for perſons who have been Civilly and Religiouſly educated when they go abroad into the World, if they fall into ill company to be ſoon corrupt<g ref="char:EOLhyphen"/>ed and debauched, and to learn thoſe vices, which at firſt they ſeemed to dread the thoughts of 'Twas doubtleſs a very common thing in the <hi>Egyptian</hi> court to Swear by the Life of <hi>Pharoah,</hi> and <hi>Joſeph</hi> himſelf when he became a Courtier, and Aſſociated with the Grandees of <hi>Egypt,</hi> that he might be modiſh had learnt it too, (<hi>Gen.</hi> 42.16.)</p>
+               <p n="4">4. If we would avoid this ſin of Swearing let us not accuſtom our ſelves to vain fooliſh, and unneceſſary Aſſeverations (ſuch as Faith and Troth, upon my word, as I am an honneſt man, and the like) in which there may be more evil then every one doth imagine.</p>
+               <p>And indeed our Saviour ſeems to condemn ſuch forms of ſpeech as well as Swearing it's ſelf (<hi>Mat.</hi> 5.34.) for having ſaid Swear not at all, <hi>neither by Heaven &amp;c.</hi> he adds, <hi>but let your
+<pb n="74" facs="tcp:29627:36"/>Communication (i. e.)</hi> your talk or diſcourſe in ordinary Converſation <hi>be yea, yea; nay, nay; For whatſoever is more then theſe cometh of evil.</hi>
+               </p>
+               <p>Now 'tis moſt certain and evident that ſuch Proteſtations or Aſſeverations are ſomewhat more then <hi>yea, yea; and nay, nay; (i. e.)</hi> then plain ſimple Affirmations or Negations, and therefore muſt proceed from evil <hi>(i. e.)</hi> from guilt and hypocriſie, or at leaſt from Levity and inconſideration, and they often tend to evil; for which cauſe St. <hi>James</hi> here would have that our <hi>yea, ſhould be yea; and our nay, nay; leſt we ſhould fall into Condemnation.</hi>
+               </p>
+               <p>And perhaps the force of our Saviour's rea<g ref="char:EOLhyphen"/>ſon why he would not have us Swear by Hea<g ref="char:EOLhyphen"/>ven or Earth, by the Temple or Altar, or the like, may without ſtraining reach this very caſe.</p>
+               <p>
+                  <hi>Swear not by Heaven</hi> (ſays he) <hi>for it is <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>od's Throne, nor by the Earth, for 'tis his Footſtool, (i. e.)</hi> becauſe God himſelf is virtually invo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ed by every ſuch Oath. And is not every ſuch Aſſeveration a kind of Appeal to God? and is not the Deſign of it much the ſame with that of an Oath, <hi>(viz.)</hi> to gain the greater Credit to what we ſay, tho' God's Name be not expreſly and formally invoked? For ſuch Aſſeverations are either idle, and inſignificant things, proceeding from a fooliſh cuſtom and habit of ſpeaking that we have gotten, and then they are to no purpoſe; or they are in<g ref="char:EOLhyphen"/>tended and taken as ſolemn confirmations of what we ſay, and then they ſeem to be much
+<pb n="75" facs="tcp:29627:36"/>of the nature of an Oath, and upon both ac<g ref="char:EOLhyphen"/>counts they may be ſinful to be uſed; but there can be no danger or inconvenience in leaving and diſuſing of them.</p>
+               <p>But were thoſe Aſſeverations in themſelves never ſo harmleſs, yet I am apt to believe the frequent uſe of them hath drawn many into Swearing; for even thoſe who did once ſcruple the firſt, have in a little time fallen in<g ref="char:EOLhyphen"/>to the latter: Even as thoſe that often ac<g ref="char:EOLhyphen"/>cuſtom themſelves to thoſe wicked words that are of kin to Curſes, are very eaſily drawn into Curſing it ſelf.</p>
+               <p>If therefore we at any time uſe ſuch forms of ſpeech as are, or are taken to be Aſſevera<g ref="char:EOLhyphen"/>tions or ſolemn Proteſtations; 'tis adviſeable that we do it very ſparingly, and only in ſe<g ref="char:EOLhyphen"/>rious and weighty matters.</p>
+               <p>Laſtly; Let thoſe that have not been guilty of this great ſin, make their humble Prayer and Supplication to God, that they may never fall into it, and let thoſe that have been guilty of it, Implore his grace, that they may avoid it for the time to come.</p>
+               <p>
+                  <hi>I ſaid I will take heed to my ways that I Offend not with my Tongue,</hi> ſays <hi>David (Pſal.</hi> 39.1.) and 'twas a good and pious Reſolu<g ref="char:EOLhyphen"/>tion, and therefore he earneſtly beggs the Aſſiſtance of God to inable him to make it good (<hi>Pſalms</hi> 141.3.) <hi>Set a watch O Lord before my Mou<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> and keep the Door of my Lips.</hi>
+               </p>
+               <pb n="76" facs="tcp:29627:37" rendition="simple:additions"/>
+               <p>Let us beſeech him to make us ſenſible of the Sinfulneſs and danger of raſh and vain Oaths, as knowing that if for every Idle word we ſhall give an account, much more for ſuch ſins as theſe of which who<g ref="char:EOLhyphen"/>ever is guilty ſhall without ſerious Repen<g ref="char:EOLhyphen"/>tance and great Humilation fall into the Con<g ref="char:EOLhyphen"/>demnation, of which the Apoſtle ſpeaks in the <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ext.</p>
+               <p>And how light ſoever he may make of it now, he will then find it a fearful thing to fall into the hands of the Living God, who is a Conſuming <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ire and who hath Solemn<g ref="char:EOLhyphen"/>ly declared <hi>that he will not hold him guiltleſs. that taketh his name in vain.</hi>
+               </p>
+               <p>
+                  <hi>Nomini tuo da Gloriam.</hi>
+               </p>
+               <trailer>FINIS.</trailer>
+               <pb facs="tcp:29627:37"/>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
